@@ -1,0 +1,41 @@
+/***start default theme****/
+
+/*active link*/
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active,
+.option-box .gear-check
+
+{
+    background-color: red;
+}
+
+.navbar-inverse .navbar-brand span,
+.features .feat span.glyphicon,
+.about h1 span,
+.testimonials span,
+.footer h3,
+.footer .copyright span
+
+{
+    color: red
+}
+.option-box .color-option,
+.testimonials .carousel-indicators li.active
+{
+
+    border: 3px solid red;
+
+}
+
+.dropdown-menu{
+
+  border-top: 3px solid red;
+    
+}
+
+/*****end default theme*****/

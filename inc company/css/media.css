@@ -1,0 +1,40 @@
+/*start media query*/
+/*mobile and tablet*/
+
+@media(max-width:767px){
+    /*screen size start from 0 to 768 mobile screen*/
+    .navbar-inverse .navbar-nav
+    {
+        padding-top: 10px;
+        padding-bottom: 10px
+    
+    }
+    
+    .subscribe .form-control{
+        margin: 20px auto
+    }
+    
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse{
+        
+        max-height: none
+    }
+    
+}
+/*from small to medium*/
+@media(min-width:768px) and (max-width:991px){
+    /*screen size start from 768 to 991*/
+   
+}
+/*medium screen*/
+@media(min-width:992px) and (max-width:1199px){
+ 
+    }
+/*larg screen*/
+
+@media(min-width:1200px){
+ 
+   
+    
+}
+/*end media query*/
