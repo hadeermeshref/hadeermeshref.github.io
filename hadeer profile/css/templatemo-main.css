@@ -187,14 +187,16 @@ nav .mini-logo {
 }
 
 nav .logo {
-	margin-top: 15px;
+	margin-top: 10px;
 	padding: 0px 20px;
+
 }
 
 nav .logo img {
 	max-width: 100%;
 	overflow-y: hidden;
     border-radius: 3%;
+    
     
 }
 
@@ -343,12 +345,13 @@ nav a:hover::before {
 }
 
 .first-content .author-image img {
-	margin-top: 15px;
-	border-radius: 30px;
+	margin-top: 10px;
+	border-radius: 70px;
 	max-width: 100%;
 	overflow: hidden;
 	float: left;
 	margin-right: 35px;
+    opacity: .5
 }
 
 .first-content h2 {
@@ -473,29 +476,7 @@ nav a:hover::before {
 	color: #fff;
 	text-decoration: underline;
 }
-.second-content .a , .b, .c{
-    float: right;
-	font-size: 19px;
-	color: #fff;
-    z-index: 99999;
-    width: 40px;
-    height: 40px;
-    line-height: 35px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    padding-left: 10px;
-    margin-right: 187px;
-    margin-bottom: 7px;
-    cursor: pointer;
-   
-}
-.second-content  .a:hover{
-    background-color: #3b5999
-}
-.second-content  .b:hover{
-    background-color: #bd081c}
-.second-content  .c:hover{
-    background-color: #410093}
+
 
 /*skills*/
 
@@ -582,8 +563,52 @@ nav a:hover::before {
     color: grey;
     font-size: 15px
 }
+.slide .third-content .x{color: darkcyan}
+.slide .third-content  .a{
+    color: #ccc;
+     width: 40px;
+    height: 40px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin-left: 430px
+}
+.slide .third-content  .b{
+    color: #ccc;
+     width: 40px;
+    height: 40px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin-left: 430px;
+    padding-right: 7px;
+    padding-top: 5px
+}
+.slide .third-content  .c{
+    color: #ccc;
+     width: 40px;
+    height: 40px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin-left: 430px;
+    padding-right: 7px;
+     padding-top: 5px
+}
 
-
+.slide .third-content  .a:hover{
+    background-color: #3b5999
+}
+.slide .third-content  .b:hover{
+    background-color: #bd081c}
+.slide .third-content  .c:hover{
+    background-color: #410093}
 /*end service*/
 /*start port*/
 
@@ -844,7 +869,45 @@ nav a:hover::before {
 	.fifth-content #contact {
 		padding: 15px 15px 15px 15px;
 	}
-
+       .slide .third-content  .a{
+    color: #ccc;
+     width: 40px;
+    height: 40px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin-left: 50px
+}
+.slide .third-content  .b{
+    color: #ccc;
+     width: 40px;
+    height: 40px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    padding-right: 7px;
+    padding-top: 5px 
+}
+.slide .third-content  .c{
+    color: #ccc;
+     width: 40px;
+    height: 40px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    padding-right: 7px;
+    padding-top: 5px;
+    
+}
+.footer .content{display: none}
 }
 
 @media(max-width: 450px) {
@@ -857,4 +920,47 @@ nav a:hover::before {
 	nav a {
 	  	padding: 15px 20px;
 	}
+    
+    .slide .third-content  .a{
+    color: #ccc;
+     width: 40px;
+    height: 40px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin-left: 50px
+}
+.slide .third-content  .b{
+    color: #ccc;
+     width: 40px;
+    height: 40px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    padding-right: 7px;
+    padding-top: 5px 
+}
+.slide .third-content  .c{
+    color: #ccc;
+     width: 40px;
+    height: 40px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    padding-right: 7px;
+    padding-top: 5px;
+    
+}
+
+
+    
+    .footer .content{display: none}
 }
