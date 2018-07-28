@@ -10,12 +10,12 @@
 }
 body{
         
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     background-color: #fff;
     }
 
 h1,h2,h3,h4,h5{
-font-family: 'Montserrat', sans-serif;
+font-family: 'Tajawal', sans-serif;
     
 }
 /*start upperbar*/
@@ -294,7 +294,7 @@ padding-right: 10px}
     color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: darkblue;
+    background-color: #3f98d3;
      -webkit-border-bottom-left-radius: 30px;
      -moz-border-bottom-left-radius: 30px;
      -o-border-bottom-left-radius: 30px;
@@ -328,7 +328,7 @@ padding-right: 10px}
        color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: darkblue;
+     background-color: #3f98d3;
      -webkit-border-bottom-left-radius: 30px;
      -moz-border-bottom-left-radius: 30px;
      -o-border-bottom-left-radius: 30px;
@@ -347,7 +347,7 @@ padding-right: 10px}
            color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: darkblue;
+    background-color: #3f98d3;
      -webkit-border-bottom-left-radius: 30px;
      -moz-border-bottom-left-radius: 30px;
      -o-border-bottom-left-radius: 30px;
