@@ -54,6 +54,21 @@ function load(){
 
 
 
+//smooth scroll to div
+	
+//	$('.oneLink ').click(function () {
+		
+	//	$('html, body').animate({
+			
+	//		scrollTop: $('#' + $(this).data('value')).offset().top
+			
+		//}, 1000);
+		
+	//	console.log();
+		
+		
+	//});
+
 
 
 

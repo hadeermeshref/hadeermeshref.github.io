@@ -3,23 +3,29 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="propeller" content="6522e300e3f55503a3c2e7b5142cb77b">
+    <meta name="author" content="MixClicks">
+  <meta name="keywords" content="تبادل الروابط  ميكس كليكس تحقيق أرباح ماديه تبادل الإعلانات ">
+  <meta name="description" content="موقع ميكس كليكس لتبادل الروابط و تحقيق أرباح ماديه جيده">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
   <!-- main style sheet -->
   
-  <link rel="stylesheet" type="text/css" href="style/index.css">
-    <link rel="stylesheet" type="text/css" href="animate.css">
-    <link rel="stylesheet" type="text/css" href="mixstyle.css">
+        <link rel='stylesheet' href='css/font-awesome.min.css'/>
+        <link rel="stylesheet" type="text/css" href="mixstyle.css">
+        <link rel='stylesheet' href='css/hover.css'/>
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel|Montserrat" >
+        <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300">
+        <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+
+
+<!--  for img logo     -->
+        <link rel="icon" type="image/png" href="img/clicks.png"/>
   
-  <meta name="author" content="MixClicks">
-  <meta name="keywords" content="تبادل الروابط  ميكس كليكس تحقيق أرباح ماديه تبادل الإعلانات ">
-  <meta name="description" content="موقع ميكس كليكس لتبادل الروابط و تحقيق أرباح ماديه جيده">
-  
-  <link rel="icon" href="img/headericon.png">
   
   <title>Mixclicks</title>
-  
+  <link rel="stylesheet" type="text/css" href="mixstyle.css">
  </head>
  
  <body onload="load()" cz-shortcut-listen="true">
@@ -52,20 +58,21 @@
    
       <div id="menu">
 
-      <div class="oneLink" id="buyPt">
+      <div class="oneLink" id="buyPt" data-value="first">
 
-       شراء نقاط       
+     شراء نقاط        
 
       </div>
       
-      <div class="oneLink" id="howTab">
+      <div class="oneLink" id="howTab" data-value="second">
        
-       شرح الموقع        
+          شرح الموقع  
+              
       </div>
        
-      <div class="oneLink" id="contTab">
-       
-       تواصل معنا       
+      <div class="oneLink" id="contTab" data-value="third">
+       تواصل معنا 
+              
        <i class="fa fa-commenting-o" aria-hidden="true"></i>
       </div>
      
@@ -98,12 +105,15 @@
     
     
    </div><!-- topBar end -->
+      
+      
+      
    
    
    
    <div id="aboutUs">
    
-    <div id="aboutTitle">
+    <div id="aboutTitle" class="wow bounce" data-wow-duration="2s"  data-wow-offset="200">
      <h4>
       <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
       
@@ -113,7 +123,7 @@
     
     <div class="clear"></div>
     
-    <div id="aboutText">
+    <div id="aboutText" class="wow swing" data-wow-duration="2s"  data-wow-offset="200">
     
      <p>
       
@@ -151,7 +161,7 @@
    </div>
    <div id="gAd1">
 
-    <iframe data-aa="829805" src="//ad.a-ads.com/829805?size=990x90" scrolling="no" style="width:990px; height:90px; border:0px; padding:0;overflow:hidden" allowtransparency="true"></iframe>
+    <iframe data-aa="829805" src="img/990x90.gif" scrolling="no" style="width:990px; height:90px; border:0px; padding:0;overflow:hidden" allowtransparency="true"></iframe>
     
    </div>
  
@@ -387,8 +397,13 @@
     <div class="rPart sectionPart">
     </div><!-- end of r part -->
     
-    <div class="mPart sectionPart" id="buyPtSection"><!-- start of m part -->
-
+       
+       <!-- start of m part -->
+  <!--  <div class="mPart sectionPart" id="buyPtSection">-->
+        
+        
+<div class="mPart sectionPart" id="first">
+    
     <img id="pointsIcon" src="img/dashpoints.png">
      
      شراء النقاط
@@ -400,7 +415,7 @@
    </div>
    
    
-   
+  <!--start 3 offers-->
    
    <div id="buyPointsContainer">
    
@@ -566,7 +581,7 @@
     
     <div id="footerDev">
      <p>
-      <a href="https://www.facebook.com/WEB-BOX-1898487450464414/" target="_blank">تصميم و برمجه WEB BOX</a>
+      <a href="#" target="_blank">designed by hadeer magdy</a>
      </p>
     </div>
     
@@ -581,51 +596,9 @@
    
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
   </div> <!-- End of #body container -->
   
   <!-- content ends here -->
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   
@@ -715,39 +688,39 @@
    
   </div> 
   
-  <!-- width div for design -->
-  <div id="width">1349</div>
+ <!-- <!-- width div for design -->
+  <!--<div id="width">1349</div>
   
   
   
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
      
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
      
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
   
   <!-- tween max -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+ <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
   
   <!-- font awesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   
   <!-- index script file -->
-      <script src="js/bootstrap.js"></script>
+      <script src="js/jquery-3.3.1.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
-      
       <script src="js/wow.min.js"></script>
-  
-  <script src="js/mix.js"></script>
+     <script src="js/index.js"></script>
+      <script src="js/mix.js"></script>
+     
   
   <!-- slider script -->
-  <script type="text/javascript" src="script/slider.js"></script>
+ <!-- <script type="text/javascript" src="script/slider.js"></script>
   
   <!-- user sign up and in script -->
   
-  <script type="text/javascript">
+ <!-- <script type="text/javascript">
   
    /* variable for display errors and success to interact with user login / signup*/
    var userError = $("#userError");
@@ -900,7 +873,7 @@
     
    });
    
-  </script>
+  </script>-->
   
  
  
