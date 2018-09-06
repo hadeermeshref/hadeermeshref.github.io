@@ -1,0 +1,42 @@
+/*start providing*/
+.features{
+    background-color: #fff;
+    width: 100%;
+    min-height: 1650px
+}
+
+
+
+.features  .feat{margin-bottom: 30px}
+.features  .h1{
+    margin-bottom: 50px;
+    margin-top: 80px;
+    font-weight: bold;
+    color: black
+}
+.features h4{
+    margin-bottom: 3px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: #4f6096
+
+}
+.features  h4:after{
+    content: '';
+    display: block;
+    width: 20%;
+    height: 3px;
+    background-color: #b28643;
+    margin-top: 40px;
+    margin-left: 100px
+}
+.features  .feat p{
+    line-height: 2em;
+    margin-top: 10px;
+    color: black
+}
+
+
+
+/*end providing*/
