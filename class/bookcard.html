@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!--first mobile compatibilty meta-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Class Plus join</title>
+    <title>Class Plus</title>
     <link rel='stylesheet' href='css/bootstrap.min.css' />
     <link rel='stylesheet' href='css/font-awesome.min.css' />
     <link rel='stylesheet' href='css/animate.css' />
     <link rel='stylesheet' href='css/style.css' />
-    <link rel='stylesheet' href='css/join.css' />
+    <link rel='stylesheet' href='css/bookcard.css' />
     <link href="https://fonts.googleapis.com/css?family=Lato|Poppins" rel="stylesheet">
 
     
@@ -23,27 +23,28 @@
 
 </head>
 <body>
-    <!--start upper-bar-->
+  <!--start upper-bar-->
+     <!--start upper-bar-->
     <div class="upper">
 
 
         <div class="container">
             <div class="row">
 
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-3 col-sm-3 col-xs-6">
 
                     <!--start logo-->
-                    <div class="logo">
+                    <div class="logo img-responsive">
                         <img src="img/logo2.PNG" />
                     </div>
                     <!--end logo-->
                 </div>
 
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-3 col-sm-3 col-xs-6">
                     <div class="searchbox hidden-xs">
                         <form>
 
-                            <input id="my-input" type="search" name="search" dir="ltr"
+                            <input id="my-input"  onclick="changeMe()" type="search" name="search" dir="ltr"
                                    placeholder="search" class=" hidden-xs "
                                    autocomplete="off" />
 
@@ -51,22 +52,22 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-3  col-sm-4 col-xs-6">
                     <div class="social hidden-xs">
 
-                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" a fa fa-facebook fa-x"></i></a>
-                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" c fa fa-twitter fa-x"></i></a>
-                        <a target="_blank" rel="noopener noreferrer" href="#">  <i class=" b fa fa-google-plus fa-x"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" a fa fa-facebook fa-x wow fadeInRight"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" c fa fa-twitter fa-x wow fadeInRight"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" href="#">  <i class=" b fa fa-google-plus fa-x wow fadeInRight"></i></a>
 
                     </div>
                 </div>
 
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-3 col-sm-2 col-xs-6">
 
                     <div class="language hidden-xs ">
 
-                        <a href="#"><img src="img/Globe.png" style="height:35px;" /></a>
-                        <a class="lang">English</a>
+                        <a href="#"><img src="img/Globe.png" style="height:25px;" /></a>
+                        <a  class="lang">English</a>
 
                     </div>
 
@@ -103,10 +104,10 @@
                 <ul class="nav navbar-nav navbar-center">
 
                     <li><a href="index.html">Home </a></li>
-                    <li><a href="#1" > news </a></li>
-                    <li><a href="#5"> services </a></li>
-                    <li><a href="#2" > book card </a></li>
-                    <li class="active"><a href="#3" > join us </a></li>
+                    <li ><a href="#1" > news </a></li>
+                    <li><a href="#1"> services </a></li>
+                    <li class="active"><a href="#2" > book card </a></li>
+                    <li><a href="#3" > join us </a></li>
                     <li><a href="#4" > special offer </a></li>
                    
                 </ul>
@@ -115,57 +116,85 @@
     </nav>
     <!--end  nav-->
     <!--end nav-bar-->
-    <!--end  carousel-->
-    
-    
-    
-    <!--start prov-->
-    <div class="prov-img">
-        <img src="img/map2.PNG" width="1420" height="400"/>
-    </div>
-     
-   <!--end prov-->
-     <!--start connect-->
-     <div class="connect-me" >
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="connect">
-                        
-                        
-                        <p>info@classplus.com  |  +1 523 +5689 652  |  Contact Us</p>
+    <!--start carousel-->
+    <div id="myslide" class="carousel slide hidden-xs" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myslide" data-slide-to="0" class="active"></li>
+            <li data-target="#myslide" data-slide-to="1"></li>
+            <li data-target="#myslide" data-slide-to="2"></li>
+            <li data-target="#myslide" data-slide-to="3"></li>
+        </ol>
 
-                        <form class="my-form">
-
-                            <input type="text" id="your-input" placeholder="Your email" autocomplete="off" /><br />
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
 
 
-                            <textarea></textarea><br />
-
-                            <button type="button" class="btn">Send</button>
-                        </form>
-
-
-                    </div>
-                </div>
+          
+            <div class="item active">
+                <img src="img/Cplus.PNG" width="1920" height="600" alt="pic 1">
 
             </div>
+
+     
+            <div class="item">
+                <img src="img/Cplus.PNG" width="1920" height="600" alt="pic 1">
+            </div>
+
+            
+            <div class="item">
+               <img src="img/Cplus.PNG" width="1920" height="600" alt="pic 1">
+
+            </div>
+
+           
+            <div class="item">
+                <img src="img/Cplus.PNG" width="1920" height="600" alt="pic 1">
+
+            </div>
+
         </div>
     </div>
 
-    <!--end connect-->
-       
+    <!--end  carousel-->
+    <!--start brand branch-->
+    
+     
+    <div class="bookcard-form text-center">
+        
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 check">
+                     <form class="my-form text-center">
+
+                         
+                           <input type="text" id="your-input" placeholder="Your full name" autocomplete="off" /><br />
+                            <input type="number" id="your-input" placeholder="Your phone" /><br />
+
+                          <input type="text" id="your-input" placeholder="Address" /><br />
+                         
+                           <div class="col-md-12 check-me ">
+                               
+                    <input type="checkbox" name="vehicle3" value="Boat" id="m"> Agree all terms and condition<br><br/>
+                         </div>
+               
+
+                            <button type="button" class="btn" class="text-center">Send</button>
+                        </form>
+                   
+                    </div>
+            </div>
+        </div>
+    </div>
     
     
+   <!--end brand branch-->
     
-    
-    
-    <!--end connect-->
-    <!--start footer-->
+   <!--start footer-->
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-sm-12">
                     <div class="menue">
                         <ul class="list-unstyled hidden-xs">
 
@@ -180,13 +209,13 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-xs-12">
+                <div class="col-sm-3 col-xs-12">
                     <div class="first">
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled wow bounceInUp">
                             <li>finance & Accounting Outsourcing</li>
                             <li>bookkeeping, Accounting & Reporting</li>
                             <li>payroll processing</li>
-                            <li>Financial,Reporting,Budgeting Forecasting</li>
+                            <li>Financial,Reporting,Budgeting Forecasting</li><br />
                             <li>Treasuty/CFO Solution</li>
                             <li>Provident Fund Accounting</li>
                             <li>Accounting software solution</li>
@@ -195,9 +224,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-xs-12">
+                <div class="col-sm-3 col-xs-12">
                     <div class="first">
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled wow bounceInDown">
                             <li>Business Advisory</li>
                             <br />
                             <li>Business Valuation</li>
@@ -211,9 +240,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-xs-12">
+                <div class="col-sm-3 col-xs-12">
                     <div class="first">
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled wow bounceInUp">
                             <li>Copiling Advisory</li>
                             <br />
                             <li>Tax Registtration</li>
@@ -226,27 +255,27 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-xs-12">
+                <div class="col-sm-3 col-xs-12">
                     <div class="first">
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled wow bounceInDown">
                             <li>Corporate Affairs</li>
                             <br />
-                            <li>Company Setup & Incorporation</li>
-                            <li>Annual Return Filling & Share Transfer</li>
-                            <li>Business Association Membership</li>
-                            <li>Work Permit Processing</li>
-                            <li>Legal Body Registration</li>
+                            <li>Company Setup & Incorporation</li><br />
+                            <li>Annual Return Filling & Share Transfer</li><br />
+                            <li>Business Association Membership</li><br />
+                            <li>Work Permit Processing</li><br />
+                            <li>Legal Body Registration</li><br />
                             <li>Other Secretarial Services</li>
 
                         </ul>
                     </div>
                 </div>
 
-                <div class="col-md-12">
-                    <div class="my-icon">
-                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" a fa fa-facebook fa-lg"></i></a>
-                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" c fa fa-twitter fa-lg"></i></a>
-                        <a target="_blank" rel="noopener noreferrer" href="#">  <i class=" b fa fa-google-plus fa-lg"></i></a>
+                <div class="col-sm-12">
+                    <div class="my-icon text-center">
+                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" a fa fa-facebook fa-lg wow fadeInRight"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" c fa fa-twitter fa-lg wow fadeInRight"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" href="#">  <i class=" b fa fa-google-plus fa-lg wow fadeInRight"></i></a>
                     </div>
                 </div>
 
@@ -256,7 +285,6 @@
     </div>
 
     <!--end footer-->
-
 
 
     <script src="js/jquery-3.3.1.min.js"></script>

@@ -1,8 +1,18 @@
+
+.navbar-default {
+    background-color: #1b191a;
+     border-color: #1b191a;
+    border-radius: 0px;
+     box-shadow: none
+}
+
 /*start providing*/
 .features{
-    background-color: #fff;
     width: 100%;
-    min-height: 1650px
+    min-height: 1650px;
+    background: none;
+    margin-bottom: 0px
+   
 }
 
 

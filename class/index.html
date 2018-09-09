@@ -29,20 +29,20 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-3 col-sm-3 col-xs-6">
 
                     <!--start logo-->
-                    <div class="logo">
+                    <div class="logo img-responsive">
                         <img src="img/logo2.PNG" />
                     </div>
                     <!--end logo-->
                 </div>
 
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-3 col-sm-3 col-xs-6">
                     <div class="searchbox hidden-xs">
                         <form>
 
-                            <input id="my-input" type="search" name="search" dir="ltr"
+                            <input id="my-input"  onclick="changeMe()" type="search" name="search" dir="ltr"
                                    placeholder="search" class=" hidden-xs "
                                    autocomplete="off" />
 
@@ -50,22 +50,22 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-3  col-sm-4 col-xs-6">
                     <div class="social hidden-xs">
 
-                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" a fa fa-facebook fa-x"></i></a>
-                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" c fa fa-twitter fa-x"></i></a>
-                        <a target="_blank" rel="noopener noreferrer" href="#">  <i class=" b fa fa-google-plus fa-x"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" a fa fa-facebook fa-x wow fadeInRight"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" c fa fa-twitter fa-x wow fadeInRight"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" href="#">  <i class=" b fa fa-google-plus fa-x wow fadeInRight"></i></a>
 
                     </div>
                 </div>
 
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-3 col-sm-2 col-xs-6">
 
                     <div class="language hidden-xs ">
 
-                        <a href="#"><img src="img/Globe.png" style="height:35px;" /></a>
-                        <a class="lang">English</a>
+                        <a href="#"><img src="img/Globe.png" style="height:25px;" /></a>
+                        <a  class="lang">English</a>
 
                     </div>
 
@@ -132,6 +132,7 @@
           
             <div class="item active">
                 <img src="img/40.jpg" width="1920" height="600" alt="pic 1">
+               <!--  <img src="img/adult-mob.png" class="hidden-lg hidden-md hidden-sm visible-xs-block " width="920" height="600" alt="pic 1">-->
                 <div class="carousel-caption hidden-xs">
                     <h1>Class Plus</h1>
                     <p class="lead">some desctibtion on photo</p>
@@ -161,7 +162,7 @@
            
             <div class="item">
                 <img src="img/40.jpg" width="1920" height="600" alt="pic 3">
-                <div class="carousel-caption hidden-xs">
+                <div  class="carousel-caption hidden-xs">
                     <h1>Class Plus</h1>
                     <p class="lead">some desctibtion on photo</p>
                 </div>
@@ -172,21 +173,31 @@
     </div>
 
     <!--end  carousel-->
+    <div class="row visible-xs">
+        <div class="item">
+            <img src="img/40.jpg" class="img-responsive" alt="pic2">
+            <div  class="carousel-caption">
+                <h1>Class Plus</h1>
+                <p class="lead">some desctibtion on photo</p>
+            </div>
+        </div>
+
+    </div>
     <!--start description-->
     <div class="desc" id="1">
         <div class="container">
             <div class="row">
+                <div class="col-sm-6 col-xs-12 pull-right wow fadeInRight  text-left img-responsive">
+                    <img src="img/n.png" />
+                </div>
 
-                <div class="col-md-6 col-xs-12">
+                <div class="col-sm-6 col-xs-12   text-left ">
                     <h2 class="h1 wow flash">class plus</h2>
-                    <p class="lead">
+                    <p class="lead wow fadeInLeft">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                     </p>
                 </div>
 
-                <div class="col-md-6 col-xs-12">
-                    <img src="img/n.png" />
-                </div>
 
             </div>
         </div>
@@ -200,7 +211,7 @@
                 <h2 class="h1">We Are Providing</h2>
                 <div class="row">
 
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <div class="feat hvr-grow wow bounceInLeft" data-wow-duration="2s" data-wow-offset="200">
                             <img src="img/injection.png" />
                             <h4>Medical Services</h4>
@@ -208,7 +219,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <div class="feat hvr-grow wow bounceInLeft" data-wow-duration="2s" data-wow-offset="200">
                             <img src="img/drink2.png" />
                             <h4>Coffes and Resturent</h4>
@@ -216,7 +227,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <div class="feat hvr-grow wow bounceInLeft" data-wow-duration="2s" data-wow-offset="200">
                             <img src="img/Path_2664.png" />
                             <h4>Electronics</h4>
@@ -224,7 +235,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <div class="feat hvr-grow wow bounceInLeft" data-wow-duration="2s" data-wow-offset="200">
                             <img src="img/film.png" />
                             <h4>Cinemas</h4>
@@ -240,30 +251,31 @@
     </div>
 
     <!--end services-->
+    
     <!--start parteners-->
-    <div class="parteners" id="3">
+    <div class="parteners " id="3">
         <div class="container">
             <h2 class="h1">Partener of Success</h2>
             <div class="row">
 
                 <ul class="list-unstyled">
-                    <li class="col-md-2 col-xs-6">
+                    <li class="col-sm-2 col-xs-6">
                         <img class="img-responsive center-block wow bounceIn" src="img/Capture1.PNG" alt="pic" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay=".5s" />
                     </li>
 
-                    <li class="col-md-2 col-xs-6 ">
+                    <li class="col-sm-2 col-xs-6 ">
                         <img class="img-responsive center-block wow bounceIn" src="img/Capture2.PNG" alt="pic" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="1s" />
                     </li>
 
-                    <li class="col-md-2 col-xs-6">
+                    <li class="col-sm-2 col-xs-6">
                         <img class="img-responsive center-block wow bounceIn" src="img/Capture3.PNG" alt="pic" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="1.5s" />
                     </li>
 
-                    <li class="col-md-2 col-xs-6">
+                    <li class="col-sm-2 col-xs-6">
                         <img class="img-responsive center-block wow bounceIn" src="img/Capture4.PNG" alt="pic" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="2s" />
                     </li>
 
-                    <li class="col-md-2 col-xs-6">
+                    <li class="col-sm-2 col-xs-6">
                         <img class="img-responsive center-block wow bounceIn" src="img/Capture5.PNG" alt="pic" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="2.5s" />
                     </li>
 
@@ -275,20 +287,21 @@
     </div>
 
     <!--end parteners-->
+    
     <!--start book card-->
     <div class="book-card" id="4">
         <div class="data">
             <div class="container">
                 <div class="row">
 
-                    <div class="col-md-6 col-xs-12">
+                    <div class="col-sm-6 col-xs-12">
                         <h2 class="h1 wow flash">class plus</h2>
-                        <p class="lead">
+                        <p class="lead wow fadeInLeft">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                         </p>
                     </div>
 
-                    <div class="col-md-6 col-xs-12">
+                    <div class="col-sm-6 col-xs-12 wow fadeInRight">
                        <a href="bookcard.html"> <button>Book Your Card Now</button></a>
                     </div>
 
@@ -310,7 +323,7 @@
             <div id="third" class="third" style="width:350px;">
                 <img class="img-responsive" src="img/slide.png">
             </div>
-            <ol style="top:95%;" class="carousel-indicators carousel-indicators1">
+            <ol id="ami" style="top:95%;" class="carousel-indicators carousel-indicators1">
                 <li class="active hi"></li>
                 <li class="hi"></li>
                 <li class="hi"></li>
@@ -329,13 +342,13 @@
     <!--end brand-slider-->
     
     <!--start offer-->
-    <div class="offers" id="5">
+    <div class="offers text-center" id="5">
         <div class="data">
             <div class="container">
                 <p class="lead">We'r Always Ahead Professional Offers For</p>
                 <p class="m"> Your Shopping</p>
                 <div class="row">
-                    <div class="col-md-4 col-xs-12 ">
+                    <div class="col-sm-4 col-xs-12 ">
                         <div class="feat hvr-grow wow bounceInDown" data-wow-duration="2s" data-wow-offset="200">
                             <img src="img/dollar.png" />
                             <h4 class="my-one">50k</h4>
@@ -343,7 +356,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-xs-12">
+                    <div class="col-sm-4 col-xs-12">
                         <div class="feat hvr-grow wow bounceInUp" data-wow-duration="2s" data-wow-offset="200">
                             <img src="img/home.png" />
                             <h4>500</h4>
@@ -351,7 +364,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-xs-12">
+                    <div class="col-sm-4 col-xs-12">
                         <div class="feat hvr-grow wow bounceInDown" data-wow-duration="2s" data-wow-offset="200">
                             <img src="img/user.png" />
                             <h4>10k</h4>
@@ -363,28 +376,29 @@
         </div>
     </div>
     <!--end offer-->
+    
     <!--start connect-->
-    <div class="connect-us" id="6">
+    <div class="connect-us " id="6">
         <div class="container">
             <div class="row">
 
-                <div class="col-md-6 col-xs-12">
+                <div class="col-sm-6 text-center col-xs-12">
                     <div class="join">
-                        <h2 class="h1">Join us</h2>
-                        <p class="lead">
+                        <h2 class="h1 wow LightSpeedIn">Join us</h2>
+                        <p class="lead text-left">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum been the industry's has been the industry's standard been the industry's standard
                         </p>
-                        <a href="join.html"><button>Join Us</button></a>
+                        <a href="join.html" class="text-center"><button>Join Us</button></a>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-xs-12">
-                    <div class="connect">
-                        <h2 class="h1">Connect with us</h2>
-                        <img src="img/map.PNG" />
+                <div class="col-sm-6 col-xs-12">
+                    <div class="connect text-center ">
+                        <h2 class="h1 wow LightSpeedIn">Connect with us</h2>
+                        <img class="img-responsive" src="img/map.PNG" />
                         <p>info@classplus.com  |  +1 523 +5689 652  |  Contact Us</p>
 
-                        <form class="my-form">
+                        <form class="my-form text-center-xs">
 
                             <input type="text" id="your-input" placeholder="Your email" autocomplete="off" /><br />
 
@@ -394,7 +408,6 @@
                             <button type="button" class="btn">Send</button>
                         </form>
 
-
                     </div>
                 </div>
 
@@ -403,13 +416,14 @@
     </div>
 
     <!--end connect-->
+    
     <!--start join-->
     <div class="join-now text-center" id="7">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="h1">Do you like what we offer</h2>
-                    <p>join now and join an unlimited worlds of savings <br />with CLASSPLUS Card</p>
+                    <h2 class="h1 wow fadeInLeftBig">Do you like what we offer</h2>
+                    <p  class="wow fadeInLeftBig">join now and join an unlimited worlds of savings <br />with CLASSPLUS Card</p>
                     
                     <a href="specialoffer.html"><button type="button" class=" wow rollIn">Book your card now</button></a>
                 </div>
@@ -422,7 +436,7 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-sm-12">
                     <div class="menue">
                         <ul class="list-unstyled hidden-xs">
 
@@ -437,13 +451,13 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-xs-12">
+                <div class="col-sm-3 col-xs-12">
                     <div class="first">
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled wow bounceInUp">
                             <li>finance & Accounting Outsourcing</li>
                             <li>bookkeeping, Accounting & Reporting</li>
                             <li>payroll processing</li>
-                            <li>Financial,Reporting,Budgeting Forecasting</li>
+                            <li>Financial,Reporting,Budgeting Forecasting</li><br />
                             <li>Treasuty/CFO Solution</li>
                             <li>Provident Fund Accounting</li>
                             <li>Accounting software solution</li>
@@ -452,9 +466,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-xs-12">
+                <div class="col-sm-3 col-xs-12">
                     <div class="first">
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled wow bounceInDown">
                             <li>Business Advisory</li>
                             <br />
                             <li>Business Valuation</li>
@@ -468,9 +482,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-xs-12">
+                <div class="col-sm-3 col-xs-12">
                     <div class="first">
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled wow bounceInUp">
                             <li>Copiling Advisory</li>
                             <br />
                             <li>Tax Registtration</li>
@@ -483,27 +497,27 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-xs-12">
+                <div class="col-sm-3 col-xs-12">
                     <div class="first">
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled wow bounceInDown">
                             <li>Corporate Affairs</li>
                             <br />
-                            <li>Company Setup & Incorporation</li>
-                            <li>Annual Return Filling & Share Transfer</li>
-                            <li>Business Association Membership</li>
-                            <li>Work Permit Processing</li>
-                            <li>Legal Body Registration</li>
+                            <li>Company Setup & Incorporation</li><br />
+                            <li>Annual Return Filling & Share Transfer</li><br />
+                            <li>Business Association Membership</li><br />
+                            <li>Work Permit Processing</li><br />
+                            <li>Legal Body Registration</li><br />
                             <li>Other Secretarial Services</li>
 
                         </ul>
                     </div>
                 </div>
 
-                <div class="col-md-12">
-                    <div class="my-icon">
-                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" a fa fa-facebook fa-lg"></i></a>
-                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" c fa fa-twitter fa-lg"></i></a>
-                        <a target="_blank" rel="noopener noreferrer" href="#">  <i class=" b fa fa-google-plus fa-lg"></i></a>
+                <div class="col-sm-12">
+                    <div class="my-icon text-center">
+                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" a fa fa-facebook fa-lg wow fadeInRight"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" href="#"> <i class=" c fa fa-twitter fa-lg wow fadeInRight"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" href="#">  <i class=" b fa fa-google-plus fa-lg wow fadeInRight"></i></a>
                     </div>
                 </div>
 
