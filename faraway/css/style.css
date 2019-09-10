@@ -140,7 +140,7 @@ font-size:26px
 
 .features .feat3 .work{
     background-color: #f7f7f7;
-    height: 500px;
+    min-height: 500px;
     padding: 30px;}
 
 .features .feat3 .work .workspace{
@@ -158,8 +158,8 @@ font-size:26px
 /*end features*/
 /*start service*/
 .services{
-    padding-top: 150px;
-    padding-bottom: 150px
+    padding-top: 100px;
+    padding-bottom: 50px
 }
 .services .serBox{
      border: 1px solid #51c1ad;
@@ -180,10 +180,10 @@ font-size:26px
 
 /*start portifolio*/
 .portifolio{
-    padding-top: 50px;
+
     min-height: 800px
 }
-.portifolio h3{font-weight: bold;font-size: 25px}
+.portifolio h3{font-weight: bold;font-size: 25px;padding-bottom: 30px}
 .portifolio p{padding-bottom: 50px}
 .portifolio .person{
     margin-bottom: 50px
@@ -194,7 +194,10 @@ font-size:26px
 /*end portifolio*/
 
 /*start team */
-.team{min-height: 850px;background-color: #27a599;padding-top: 70px;margin-top: 100px;
+.team{
+    min-height: 900px;
+    background-color: #27a599;
+    padding-top: 70px;margin-top: 100px;
    padding-bottom: 70px}
 .team h3{font-weight: bold;color: #fff;font-size: 40px;padding-bottom: 10px}
 .team p{color: #fff;}
@@ -236,7 +239,7 @@ font-size:26px
 /*start test*/
 .testemonial{
     background-color: #2c7dbc;
-    min-height: 400px;
+    min-height: 600px;
     padding-top: 100px
 }
 
@@ -254,7 +257,7 @@ font-size:26px
   color: #222;
   font-size: 2.3em;
   text-shadow: none;
-  margin-top: 30px;
+  padding-top: 60px;
 }
 /* Previous button  */
 #quote-carousel .carousel-control.left 
@@ -286,7 +289,8 @@ font-size:26px
 #quote-carousel img
 {
   width: 250px;
-  height: 100px
+  height: 100px;
+    
 }
 /* End carousel */
 
@@ -309,7 +313,8 @@ font-size:26px
 
 .testemonial p{
     color: #fff;
-    font-size: 22px
+    font-size: 22px;padding-top: 20px;
+    padding-bottom: 20px
 }
 
 /**
@@ -546,17 +551,30 @@ figure.blog-item.hover:after {
     font-size: 30px;
      margin-top: 60px
 }
-.contact .con-info p{
+.contact .con-info .lead{
     margin-bottom: 20px;
-    padding: 10px
+    padding: 20px
 }
-.contact .con-info i{
-    color: #00abc9
+.contact .con-info .detail {
+   padding-bottom: 20px
+    }
+.contact .con-info .detail i{
+    color: #00abc9;
+    
 }
+.contact .con-info .detail p{
+    padding-left: 10px
+    }
+
 .contact .con-form{
  margin-top: 60px ;
  width: 80% ;
-    padding: 25px
+
+ 
+}
+
+.contact .con-info p ,.contact .con-info i{
+    display: inline-block
 }
 
 .contact .con-form input{
