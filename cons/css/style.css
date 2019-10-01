@@ -346,6 +346,7 @@ h5 {
 .carousel .item.active .animated3 {
     -webkit-animation: fadeInLeft 1.5s ease-in-out 300ms both;
     animation: fadeInLeft 1.5s ease-in-out 300ms both;
+    font-size: 40px
 }
 
 .carousel .item.active .animated4 {
