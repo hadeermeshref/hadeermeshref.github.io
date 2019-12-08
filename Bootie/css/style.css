@@ -1,0 +1,127 @@
+
+/*start header*/
+.header{
+    min-height: 700px;
+    background: url(../img/banner.jpg)center center no-repeat;
+    background-size: cover;
+}
+.header .navbar{padding-top: 40px}
+.header .navbar .navbar-brand{color: #fff;font-size: 50px;font-weight: bold}
+.header .navbar ul li a{color: #fff;font-size: 17px;}
+.header .navbar ul li a:hover, .header .navbar ul li a:focus{color: black;background-color: transparent}
+.header .navbar ul .dropdown-menu a{color: black}
+.header .header-content{margin-top: 160px}
+.header .header-content h6{color: #fff;font-size: 17px;}
+.header .header-content h1{color: #fff;font-size: 60px;font-weight: bold}
+.header .header-content .btn{margin-top: 30px;padding-left: 20px;padding-right: 20px;font-weight: bold}
+.header .header-content .btn1{color: #ad1f36;background-color: #fff;border-radius: 0; }
+.header .header-content .btn2{color: #bce1ff;background-color: #11a6fc;border-radius: 0; }
+/*end header*/
+/*start  rules*/
+.rules{padding-top: 50px;min-height: 300px}
+.rules .item{margin: 5px; background-color: #f8f9fa;box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);}
+.rules .item i{font-size: 20px;color: red;padding-left: 30px;padding-top: 60px} 
+.rules .item .content{padding-left: 50px}
+.rules .item .content h3{font-size: 14px;font-weight: bold;padding-bottom: 7px;padding-top: 20px}
+.rules .item .content p{font-size: 13px;color: #888;padding-right: 10px;padding-bottom: 27px;}
+/*end rules*/
+/*start arrival*/
+.arrival{min-height: 700px;}
+.arrival h2{font-weight: bold;font-size: 40px;margin-top: 40px}
+.arrival .new-items{border: 1px solid #ccc;margin-top: 40px;margin-bottom: 20px}
+.arrival .new-items img{padding: 30px 45px;width: 100%}
+.arrival .new{background-color: #414b52;color: #fff;padding: 5px 10px;}
+.arrival .new-items h5{font-weight: bold;padding-top: 7px;font-size: 18px;}
+.arrival .new-items .price{font-weight: bold;color: red;font-size: 18px;}
+.arrival .new-items ul{padding: 0;margin-top: 10px}
+.arrival .new-items ul li{display: inline-block}
+.arrival .new-items ul li .fa{color: #414b52; font-size: 12px }
+hr{width: 90%}
+/*end arrival*/
+
+/*opinion*/
+.opinion{min-height: 300px;background-color: #ddd;margin-top: 40px;margin-bottom: 50px}
+.opinion h4{font-weight: bold;padding-top: 60px}
+.opinion .stars {padding: 0;}
+.opinion .stars li{display: inline-block;}
+.opinion .stars li .fa-star{font-size: 16px;color: red}
+.opinion .fa, .opinion p{display: inline}
+.opinion .fa{font-size: 25px}
+.opinion p{
+font-size: 0.9em;
+    color: #8c9398;
+    line-height: 2em;
+    letter-spacing: 1px;}
+/*opinion*/
+/*start popular-prod*/
+
+.popular{min-height: 800px;}
+
+.popular h2{font-size: 30px;;font-weight: bold;padding-bottom: 40px}
+.popular .items{margin-top: 40px;margin-bottom: 20px}
+.popular .items img{width: 100%}
+.popular  .items .item1{border: 1px solid #ccc}
+.popular  .items .item1 img{padding: 20px}
+.popular  .items .item2{border: 1px solid #ccc ;}
+.popular  .items .item2 img{padding: 20px}
+.popular  .items .item3{border: 1px solid #ccc ;}
+.popular  .items .item3 img{padding: 20px}
+/*end popular-prod*/
+.brands{min-height: 120px;background-color: #1e272e;}
+.brands img{padding-top:40px}
+
+/*brands*/
+/*/footer*/
+.footer{min-height: 650px;background-color: #f7f7f7}
+.footer .left-part{padding-top: 30px}
+.footer .left-part h3{font-size: 40px;;font-weight: bold}
+.footer .left-part p, .footer .right-part p{font-size: 1.1em;
+    color: #8c9398;
+    line-height: 2em;
+    letter-spacing: 1px;
+padding-bottom: 20px}
+.footer .left-part h5{font-size:17px;padding-top: 10px;font-weight: bold}
+.footer .left-part ul li{display: inline-block;padding: 12px;font-size: 22px}
+.footer .left-part ul li .twitter{color: #11a6fc}
+.footer .left-part ul li .dribble{color: palevioletred}
+.footer .left-part ul li .google{color: #f5675d}
+
+#scroll-top
+{
+  color:azure;
+    background-color: #148bff;
+    width: 50px;height: 50px;
+    border-radius: 50%;
+    cursor: pointer;float: right;
+    padding-left: 12px;padding-top: 8px
+}
+
+/*end scroll to top*/
+.footer .right-part{padding-top: 30px;border-left: 1px solid #ccc;padding-left: 25px}
+.footer .right-part h3{font-weight: bold;font-size:20px}
+.footer .right-part input{width: 80%;border: none;color: #888;background-color: #efeeee;height: 50px;padding: 10px 20px}
+.footer .right-part .btn1{width: 10%;height: 50px;background-color: #1e272e;border-color: #1e272e;margin-bottom: 20px}
+
+.footer .right-part .btn1 .fas{color: red}
+.footer .right-part .lists h3{padding-bottom: 20px}
+.footer .right-part .lists .icons li{padding-bottom: 15px}
+.footer .right-part .lists .icons li a{text-decoration: none;text-transform: uppercase; color: #8c9398;}
+.footer .right-part .myp{margin: 20px}
+
+/*footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
