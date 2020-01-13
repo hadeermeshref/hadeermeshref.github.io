@@ -1,6 +1,6 @@
 
 body{
-   font-family: 'Poppins', sans-serif;
+   font-family: 'Poppins', sans-serif
  
 }
 .clearfix{
@@ -21,11 +21,13 @@ Font-weight:900}
 .navbar-inverse .navbar-brand {
     color: #fff;
     font-weight: bold;
-    font-size: 28px
+    font-size: 34px
 }
 
 .navbar-inverse .navbar-nav > li > a {
     color: white;}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #c47135;}
 /*goz2 5as mob in nav */
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     background-color: gainsboro;

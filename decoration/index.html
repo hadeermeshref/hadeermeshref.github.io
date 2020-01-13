@@ -10,7 +10,7 @@
        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 	   <link rel='stylesheet' href='css/bootstrap.css'/>
         <link rel='stylesheet' href='css/all.css'/>
-       
+       <link rel="stylesheet" href="css/animate.css">
          <link rel='stylesheet' href='css/style.css'/>
  <!--[if lt IE 9]>
         <script src="js/html5shiv.min.js"></script>
@@ -98,7 +98,7 @@
       <h1 class="text-center">Interior Technology</h1> 
      <h3 class="text-center">Decorating Ideas For Your House</h3>
         <div class="header-content">
-               <div class="row">
+               <div class="row wow bounceInDown" data-wow-duration="2s" data-wow-delay="1s">
                    <div class="col-md-4 col-xs-12">
                        <div class="my-image text-center">
                        <img class="img1" src="images/bathing.png">
@@ -163,10 +163,10 @@
                       <span class="border-line hidden-sm hidden-xs"></span>
             </div>
                   <div class="row about-part2">
-                     <div class="col-sm-6 col-xs-12">
+                     <div class="col-sm-6 col-xs-12 wow slideInLeft">
                         <img class="img-responsive" src="images/slider.jpg"/>
                       </div> 
-                      <div class="col-sm-6 col-xs-12 right-part">
+                      <div class="col-sm-6 col-xs-12 right-part wow slideInRight">
                           <div class="">
                           	<h4>Interior Technology Comes With :</h4>
 								<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla
@@ -191,7 +191,7 @@
                   <h2 class="text-center">OUR FURNITURE</h2>
                
                     <div class="row1-content">
-                         <div class="row">
+                         <div class="row  wow slideInDown" data-wow-duration="2s">
                      <div class="col-md-8 col-xs-12">
                           <div class="row row1-content-part1">
                               
@@ -220,7 +220,7 @@
                         
                         </div>
                         <div class="row2-content">
-                            <div class="row">
+                             <div class="row  wow slideInDown" data-wow-duration="2s">
                                <div class="col-md-4 col-xs-12">
                          <div class="row1-content-part11 text-center">
                           <img class=" " src="images/s4.png"/>
@@ -260,7 +260,7 @@
                 <h2 class="text-center">PRICING PLANS</h2>
                <div class="row">
                    
-                   <div class="col-sm-4 col-xs-12  text-center">
+                   <div class="col-sm-4 col-xs-12  text-center wow slideInUp" data-wow-duration="2s">
                        <div class="basic-box">
                            <h4 class="upper">weekly</h4>
                            <p class="upper">125   $</p>
@@ -276,7 +276,7 @@
                </div>
                </div>
                    
-                       <div class="col-sm-4 col-xs-12  text-center">
+                       <div class="col-sm-4 col-xs-12  text-center wow slideInUp" data-wow-duration="2s">
                        <div class="basic-box">
                            <h4 class="upper">monthly</h4>
                            <p class="upper">325   $</p>
@@ -292,7 +292,7 @@
                </div>
                </div>
                    
-                       <div class="col-sm-4 col-xs-12  text-center">
+                        <div class="col-sm-4 col-xs-12  text-center wow slideInUp" data-wow-duration="2s">
                        <div class="basic-box">
                            <h4 class="upper">yearly</h4>
                            <p class="upper">525   $</p>
@@ -366,14 +366,14 @@
   <footer class="footer">
       <div  class="container">
          <div class="row footer-grid">
-             <div class="col-sm-3 col-xs-12">
+             <div class="col-sm-3 col-xs-12 wow slideInLeft" data-wow-duration="2s">
                   <h4>Contact us</h4>
                  <p> <span class="fas mr-2 fa-map-marker"></span> 1234 block, Charlotte, North Carolina, United States</p>
 				<p class="my-2"><span class="fas mr-2 fa-envelope-open"></span>info@example.com</p>
 				<p><span class="fas mr-2 fa-phone-volume"></span> +12 5348794364</p>
              </div>
              
-                  <div class="col-sm-3 col-xs-12">
+                  <div class="col-sm-3 col-xs-12 wow slideInLeft" data-wow-duration="2s">
                   <h4>Company links</h4>
                  <p> Terms and Conditions</p>
 				<p>Privacy Policy</p>
@@ -381,7 +381,7 @@
                       
 				
              </div>
-                <div class="col-sm-6 col-xs-12">
+                <div class="col-sm-6 col-xs-12 wow slideInLeft"data-wow-duration="2s">
                 <h4>Our Partners</h4>
                     <ul>
 					<li><img src="images/brand1.png" class="img-responsive" alt="" /></li>
@@ -406,6 +406,9 @@
 	   <script src="js/bootstrap.min.js"></script>
 
        <script src="js/main.js"></script>  
-        
+         <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     </body>
 </html>

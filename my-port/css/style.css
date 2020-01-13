@@ -774,10 +774,18 @@ a:hover {
   backface-visibility: hidden;
   background-color: #fff;
 }
-
-.work-box:hover img {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+.portfolio-mf img {
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+     opacity: .7;
+}
+.portfolio-mf .item  .image:hover img {
+-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    opacity: 1;
+    border-radius: 40px 
 }
 
 .work-img {
