@@ -1,6 +1,7 @@
 .offers{
     min-height:1800px;
-    position: relative
+    position: relative;
+    overflow: hidden
        
 }
 .offers .my-row{margin-top: 50px;}

@@ -9,10 +9,12 @@ body{
     box-sizing: border-box;
     overflow-x:hidden
 }
+container{width: 1200px}
 ul{list-style: none}
 /*start navbar*/
 .nav{
-    min-height: 100px
+    min-height: 100px;
+    overflow: hidden
 }
 .nav .nav-content{
     padding-top: 20px;width: 100%;
@@ -103,7 +105,8 @@ ul{list-style: none}
 /*start content*/
 .my-content{
     min-height: 1200px;
-    position: relative
+    position: relative;
+    overflow: hidden
        
 }
 .my-content .my-row{margin-top: 50px;}
@@ -130,7 +133,7 @@ ul{list-style: none}
 
 .date-form form .btn-success{margin-top: 20px;background-color: #414b52;border: 1px solid #414b52}
 /*table*/
-.my-content table{margin-top: 170px;max-width: 100%;}
+.my-content table{margin-top: 170px;}
 .my-content table thead{background-color:  #044a95;color: #fff;}
 .my-content table thead th{padding: 20px}
 .my-content table thead th .my-btn{background-color: #ccc;color: #2670ad}
