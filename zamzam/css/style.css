@@ -1,0 +1,158 @@
+/* start style for page index.html*/
+/*start header*/
+body{
+    font-family: 'Cairo', 'Arial';
+    background-color: #f7f7f7;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms- box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x:hidden
+}
+ul{list-style: none}
+/*start navbar*/
+.nav{
+    min-height: 100px
+}
+.nav .nav-content{
+    padding-top: 20px;width: 100%;
+}
+.nav .nav-content .navbar .navbar-header{}
+.nav .nav-content .navbar .navbar-header .links, .nav .nav-content .my-list {
+ list-style: none;
+     padding-top: 30px;
+}
+.nav .nav-content .my-list {
+    
+   float: left
+}
+.nav .nav-content .my-list ul li{
+    
+      display: inline-block;
+    
+}
+.nav .nav-content .navbar .navbar-header .links li {
+  display: inline-block;
+     padding-left: 0px;
+    font-size: 18px;
+    color: #3e70a8;
+    cursor: pointer
+   
+}
+@media (min-width: 768px)
+    
+{
+.navbar-nav > li > a {
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+}
+.nav .nav-content .logo{
+      float: right;
+    width: 165px;
+   min-height: 100px;
+    margin-top: 10px;
+        position: relative;
+    z-index: 1; 
+}
+.nav .nav-content .logo img{
+    
+    max-width: 100%
+}
+  
+.navbar-default , .navbar-default .navbar-toggle{
+     background-color: none; 
+     border-color: transparent; 
+        padding-top: 10px;
+   
+}
+.navbar-default .navbar-nav > li > a {
+    color: #2670ad;
+}
+ 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #414b52;
+
+}
+.nav .nav-content .my-list{
+    padding-right: 0;
+}
+.nav .nav-content .my-list li{
+     display: inline-block;
+     padding-left: 10px;
+    font-size: 16px;
+    cursor: pointer;color: #2670ad
+}
+.nav .nav-content .my-list li a{text-decoration: none }
+.nav .nav-content .my-list li .btn-primary{
+    width: 80px;
+    border-radius: 40px
+}
+.nav .nav-content .my-list li .navbar-btn-circle{
+    line-height: 40px;
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+    border: 1px solid #2670ad;
+    font-size: 12px
+}
+
+/*end navbar*/
+
+/*start content*/
+.my-content{
+    min-height: 1200px;
+    position: relative
+       
+}
+.my-content .my-row{margin-top: 50px;}
+
+.my-content .img-box{ border: 3px solid #ccc; border-radius: 5px;}
+.my-content .img-box img{
+        padding: 10px;  
+    width: 100%;
+}
+.my-content  .info1{background-color: #ccc;min-height: 40px;color: #2670ad;border-radius: 8px}
+.my-content  .info1 .info-m{padding-top: 7px}
+.my-content .date-form {
+    position: absolute;
+    display: inline;
+    width: 100%;
+}
+.date-form .form-control {
+    display: inline-block;
+    width: 90%;
+    margin-top: 20px;
+    
+}
+
+
+.date-form form .btn-success{margin-top: 20px;background-color: #414b52;border: 1px solid #414b52}
+/*table*/
+.my-content table{margin-top: 170px;max-width: 100%;}
+.my-content table thead{background-color:  #044a95;color: #fff;}
+.my-content table thead th{padding: 20px}
+.my-content table thead th .my-btn{background-color: #ccc;color: #2670ad}
+.my-content table tbody{background-color: #ccc;}
+.my-content table tbody td{padding: 40px}
+/*//table*/
+/*end content*/
+/*start footer*/
+.footer{
+    min-height: 300px;
+    background-color: #044a95;
+    color: #fff
+}
+.footer h3{padding-bottom: 30px;padding-top: 15px}
+.footer p{font-size: 18px}
+.footer p span{padding: 10px}
+/*end footer*/
+
+/*//////// end style for page index.html////////////////*/
+
+
+
+
+
+
