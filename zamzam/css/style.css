@@ -129,10 +129,13 @@ ul{list-style: none}
 .my-content  .info1{background-color: none;min-height: 40px;color: #2670ad;border-radius: 8px}
 .my-content  .info1 .info-m{
     padding-top: 7px;
-   
+   border: 1px solid black;
+    border-radius: 5px;
 
 }
-.my-content  .info1 .info-m select{ background-color: transparent; color: black;border-radius: 5px}
+.my-content  .info1 .info-m select{ background-color: transparent; color: black;
+border: none;}
+.my-content  .info1 .info-m select .select2{}
 .my-content .date-form {
     position: absolute;
     display: inline;
