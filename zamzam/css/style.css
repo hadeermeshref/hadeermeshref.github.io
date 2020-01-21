@@ -17,7 +17,8 @@ ul{list-style: none}
     overflow: hidden
 }
 .nav .nav-content{
-    padding-top: 20px;width: 100%;
+    padding-top: 20px;
+     overflow: hidden
 }
 .nav .nav-content .navbar .navbar-header{}
 .nav .nav-content .navbar .navbar-header .links, .nav .nav-content .my-list {
@@ -46,7 +47,7 @@ ul{list-style: none}
 {
 .navbar-nav > li > a {
     padding-top: 35px;
-    padding-bottom: 15px;
+    
 }
 }
 .nav .nav-content .logo{
@@ -61,7 +62,7 @@ ul{list-style: none}
     
     max-width: 100%
 }
-  
+.nav .nav-content .navbar li {display: inline-block;padding: 7px}
 .navbar-default , .navbar-default .navbar-toggle{
      background-color: none; 
      border-color: transparent; 
@@ -79,9 +80,14 @@ ul{list-style: none}
 .nav .nav-content .my-list{
     padding-right: 0;
 }
+.nav .nav-content .my-list ul{
+    padding-right: 0;
+    margin-right: 30px
+}
 .nav .nav-content .my-list li{
      display: inline-block;
-     padding-left: 10px;
+/*     padding-left: 10px;*/
+    
     font-size: 16px;
     cursor: pointer;color: #2670ad
 }
@@ -98,6 +104,10 @@ ul{list-style: none}
     border-radius: 50% !important;
     border: 1px solid #2670ad;
     font-size: 12px
+}
+/**/
+.navbar-default .my-ul{
+    width: 600px;
 }
 
 /*end navbar*/
@@ -133,12 +143,13 @@ ul{list-style: none}
 
 .date-form form .btn-success{margin-top: 20px;background-color: #414b52;border: 1px solid #414b52}
 /*table*/
-.my-content table{margin-top: 170px;}
-.my-content table thead{background-color:  #044a95;color: #fff;}
-.my-content table thead th{padding: 20px}
-.my-content table thead th .my-btn{background-color: #ccc;color: #2670ad}
-.my-content table tbody{background-color: #ccc;}
-.my-content table tbody td{padding: 40px}
+.my-data{overflow: hidden;}
+.my-data table{margin-top: 170px;}
+.my-data table thead{background-color:  #044a95;color: #fff;}
+.my-data table thead th{padding: 20px}
+.my-data table thead th .my-btn{background-color: #ccc;color: #2670ad}
+.my-data table tbody{background-color: #ccc;}
+.my-data table tbody td{padding: 40px}
 /*//table*/
 /*end content*/
 /*start footer*/
