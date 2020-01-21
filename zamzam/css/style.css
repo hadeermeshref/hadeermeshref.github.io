@@ -82,7 +82,7 @@ ul{list-style: none}
 }
 .nav .nav-content .my-list ul{
     padding-right: 0;
-    margin-right: 30px
+    
 }
 .nav .nav-content .my-list li{
      display: inline-block;
@@ -91,7 +91,7 @@ ul{list-style: none}
     font-size: 16px;
     cursor: pointer;color: #2670ad
 }
-.nav .nav-content .my-list li a{text-decoration: none }
+.nav .nav-content .my-list li a{text-decoration: none ;font-size: 12px}
 .nav .nav-content .my-list li .btn-primary{
     width: 80px;
     border-radius: 40px
@@ -126,8 +126,13 @@ ul{list-style: none}
         padding: 10px;  
     width: 100%;
 }
-.my-content  .info1{background-color: #ccc;min-height: 40px;color: #2670ad;border-radius: 8px}
-.my-content  .info1 .info-m{padding-top: 7px}
+.my-content  .info1{background-color: none;min-height: 40px;color: #2670ad;border-radius: 8px}
+.my-content  .info1 .info-m{
+    padding-top: 7px;
+   
+
+}
+.my-content  .info1 .info-m select{ background-color: transparent; color: black;border-radius: 5px}
 .my-content .date-form {
     position: absolute;
     display: inline;
