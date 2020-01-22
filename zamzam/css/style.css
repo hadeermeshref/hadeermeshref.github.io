@@ -37,7 +37,7 @@ ul{list-style: none}
 .nav .nav-content .navbar .navbar-header .links li {
   display: inline-block;
      padding-left: 0px;
-    font-size: 18px;
+    font-size: 10px;
     color: #3e70a8;
     cursor: pointer
    
@@ -62,13 +62,15 @@ ul{list-style: none}
     
     max-width: 100%
 }
-.nav .nav-content .navbar li {display: inline-block;padding: 7px}
+.nav .nav-content .navbar li {padding: 7px}
 .navbar-default , .navbar-default .navbar-toggle{
      background-color: none; 
      border-color: transparent; 
         padding-top: 10px;
    
 }
+
+.navbar-default .navbar-nav{width: 100%}
 .navbar-default .navbar-nav > li > a {
     color: #2670ad;
 }
@@ -97,19 +99,33 @@ ul{list-style: none}
     border-radius: 40px
 }
 .nav .nav-content .my-list li .navbar-btn-circle{
-    line-height: 40px;
-    padding: 8px;
+    line-height: 20px;
+    padding: 5px;
     width: 50px;
     height: 50px;
     border-radius: 50% !important;
     border: 1px solid #2670ad;
-    font-size: 12px
+    font-size: 10px;font-weight: bold
 }
 /**/
 .navbar-default .my-ul{
     width: 600px;
 }
+.nav > li > a {
+   
+     padding: 0; 
+    font-size: 12px;padding-top: 15px
+}
 
+@media (min-width: 400px) and  (max-width: 850px)/*tabet*/
+    
+{
+.navbar-nav > li > a {
+    font-size: 10px;
+    padding-top: 18px
+    
+}
+}
 /*end navbar*/
 
 /*start content*/
@@ -157,7 +173,7 @@ border: none;}
 .my-data table thead th{padding: 20px}
 .my-data table thead th .my-btn{background-color: #ccc;color: #2670ad}
 .my-data table tbody{background-color: #ccc;}
-.my-data table tbody td{padding: 40px}
+.my-data table tbody td{padding: 8px}
 /*//table*/
 /*end content*/
 /*start footer*/

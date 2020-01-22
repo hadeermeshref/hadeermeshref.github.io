@@ -73,43 +73,33 @@ nav .my-navbar{
         padding: 10px;  
     width: 100%;
 }
-.offers .my-row .border-line{
-    
-    height: 70px;
-    position: absolute;
-    border-left: 2px solid #147066 ;
-    right: 50%;
-    top:18%;
-}
+
 .offers .address-details{padding-top: 90px}
 .offers .address-details .address{background-color:  #147066;
     color: #fff;border-radius: 10px;width: 100%;min-height: 140px}
 .offers .address-details .address .fas{font-size:25px;margin-top: 10px}
 .offers .address-details .address h4{padding: 10px;border-bottom: 1px solid #fff;}
 .offers .address-details .address .options{color: #fff;background-color: transparent;margin-bottom: 10px}
-.offers .address-details .address .btn{color: #fff;background-color: transparent;margin-bottom: 5px;border: 1px solid #fff; padding: 5px;padding-left: 10px;padding-right: 10px}
-.offers .address-details .border-line{
-      height: 70px;
-    position: absolute;
-    border-left: 2px solid #147066 ;
-    right: 50%;
-    top:31%;
+.offers .address-details .address .btn{
+    color: #fff;background-color: transparent;margin-bottom: 5px;; padding: 5px;
+width: 100%;
 }
 
 
 .offers .prices{margin-top: 40px}
 
-.offers .prices .btn{border-radius: 20px;padding: 10px 20px;margin-bottom: 15px;display: inline-block}
+.offers  .btn{border-radius: 20px;padding: 10px 20px;margin-bottom: 15px;display: block}
+.offers .net-offer {margin-top: 80px;margin-bottom: 50px}
+.offers .net-offer .net{background-color: #147066}
 
-.offers .net{background-color: #147066}
-.offers .prices .line{width: 59px;height: 2px;position: absolute;border-top:  2px solid #147066 ;
- right: 43%;top:55.5%;}
-
-.offers .prices .my-line{width: 59px;height: 2px;position: absolute;border-top:  2px solid #147066 ;
- right: 53%;top:55.5%;}
 .offers .price-btn{margin-top: 30px;}
- .offers .prices .far{display: block}
-.offers .prices .lables h4{margin-top: 30px;}
+ .offers .net-offer .net{display: block;margin-top: 10px;width: 100%; outline: none}
+.offers .net-offer .net input[type=number]{
+    background-color: #147066;
+    width: 100%;
+   
+}
+.offers  .net-offer  h4{margin-top: 40px;}
 
 
 

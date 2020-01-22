@@ -21,18 +21,18 @@
 .content .address-details .address h4{padding: 10px;border-bottom: 1px solid #fff;}
 .content .address-details .address .options{color: #fff;background-color: transparent;margin-bottom: 10px}
 .content .address-details .address .btn{color: transparent;background-color: transparent;margin-bottom: 5px;border: 1px solid #fff; padding: 5px;padding-left: 10px;padding-right: 10px}
-/*start table*/
-table{margin-top: 120px;min-height: 450px}
+
+/***************start table*************/
+table{margin-top: 120px;min-height: auto}
 table thead{color: #044a95;}
 table thead tr th{text-align: center}
-/*table thead tr th{border: 1px solid black;}*/
+
 .table > thead > tr > th {
-    
      border-bottom: 1px solid transparent;
     
 }
-/*.table > thead:first-child > tr:first-child > th{border-top: 1px solid black;}*/
-table tbody{min-height: 300px}
+
+table tbody tr{margin-top: 0}
 table tbody td{border-left: 5px solid #044a95; text-align: center ;padding-top: 15px}
 
 
