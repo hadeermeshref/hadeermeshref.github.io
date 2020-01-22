@@ -70,7 +70,7 @@ ul{list-style: none}
    
 }
 
-.navbar-default .navbar-nav{width: 100%}
+.navbar-default .navbar-nav{width: 100%;}
 .navbar-default .navbar-nav > li > a {
     color: #2670ad;
 }
@@ -81,6 +81,7 @@ ul{list-style: none}
 }
 .nav .nav-content .my-list{
     padding-right: 0;
+   
 }
 .nav .nav-content .my-list ul{
     padding-right: 0;
@@ -126,6 +127,9 @@ ul{list-style: none}
     
 }
 }
+
+
+.col-xs-5 {float: left}
 /*end navbar*/
 
 /*start content*/
