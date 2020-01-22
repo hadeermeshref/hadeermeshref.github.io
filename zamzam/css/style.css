@@ -12,124 +12,7 @@ body{
 container{width: 1200px}
 ul{list-style: none}
 /*start navbar*/
-.nav{
-    min-height: 100px;
-    overflow: hidden
-}
-.nav .nav-content{
-    padding-top: 20px;
-     overflow: hidden
-}
-.nav .nav-content .navbar .navbar-header{}
-.nav .nav-content .navbar .navbar-header .links, .nav .nav-content .my-list {
- list-style: none;
-     padding-top: 30px;
-}
-.nav .nav-content .my-list {
-    
-   float: left
-}
-.nav .nav-content .my-list ul li{
-    
-      display: inline-block;
-    
-}
-.nav .nav-content .navbar .navbar-header .links li {
-  display: inline-block;
-     padding-left: 0px;
-    font-size: 10px;
-    color: #3e70a8;
-    cursor: pointer
-   
-}
-@media (min-width: 768px)
-    
-{
-.navbar-nav > li > a {
-    padding-top: 35px;
-    
-}
-}
-.nav .nav-content .logo{
-      float: right;
-    width: 165px;
-   min-height: 100px;
-    margin-top: 10px;
-        position: relative;
-    z-index: 1; 
-}
-.nav .nav-content .logo img{
-    
-    max-width: 100%
-}
-.nav .nav-content .navbar li {padding: 7px}
-.navbar-default , .navbar-default .navbar-toggle{
-     background-color: none; 
-     border-color: transparent; 
-        padding-top: 10px;
-   
-}
 
-.navbar-default .navbar-nav{width: 100%;}
-.navbar-default .navbar-nav > li > a {
-    color: #2670ad;
-}
- 
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #414b52;
-
-}
-.nav .nav-content .my-list{
-    padding-right: 0;
-   
-}
-.nav .nav-content .my-list ul{
-    padding-right: 0;
-    
-}
-.nav .nav-content .my-list li{
-     display: inline-block;
-/*     padding-left: 10px;*/
-    
-    font-size: 16px;
-    cursor: pointer;color: #2670ad
-}
-.nav .nav-content .my-list li a{text-decoration: none ;font-size: 12px}
-.nav .nav-content .my-list li .btn-primary{
-    width: 80px;
-    border-radius: 40px
-}
-.nav .nav-content .my-list li .navbar-btn-circle{
-    line-height: 20px;
-    padding: 5px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50% !important;
-    border: 1px solid #2670ad;
-    font-size: 10px;font-weight: bold
-}
-/**/
-.navbar-default .my-ul{
-    width: 600px;
-}
-.nav > li > a {
-   
-     padding: 0; 
-    font-size: 12px;padding-top: 15px
-}
-
-@media (min-width: 400px) and  (max-width: 850px)/*tabet*/
-    
-{
-.navbar-nav > li > a {
-    font-size: 10px;
-    padding-top: 18px
-    
-}
-}
-
-
-.col-xs-5 {float: left}
 /*end navbar*/
 
 /*start content*/
@@ -198,3 +81,32 @@ border: none;}
 
 
 
+.icon-bar{
+    background-color:black;
+}
+
+.nav > li > a {
+    padding:10px;
+}
+.navbar-nav{
+    padding-top:20px;
+}
+.navbar{
+    margin-bottom:0;
+}
+
+.paddit {
+    padding-top: 20px;
+    margin-top:8px;
+}
+
+.navbar-btn-circle {
+    line-height: 20px;
+    margin: 0 5px;
+    width: 41px;
+    height: 42px;
+    border-radius: 50% !important;
+    border: 1px solid #2670ad;
+    /* font-size: 10px; */
+    font-weight: bold;
+}
