@@ -99,6 +99,10 @@ border: none;}
     padding-top: 20px;
     margin-top:8px;
 }
+.nav > li > a:hover {
+   color: black;
+    
+}
 
 .navbar-btn-circle {
     line-height: 20px;
