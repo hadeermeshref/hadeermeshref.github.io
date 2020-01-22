@@ -1,0 +1,116 @@
+/* start style for page index.html*/
+/*start header*/
+body{
+    font-family: 'Cairo', 'Arial';
+    background-color: #f7f7f7;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms- box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x:hidden
+}
+container{width: 1200px}
+ul{list-style: none}
+/*start navbar*/
+
+/*end navbar*/
+
+/*start content*/
+.my-content{
+    min-height: 1200px;
+    position: relative;
+    overflow: hidden
+       
+}
+.my-content .my-row{margin-top: 50px;}
+
+.my-content .img-box{ border: 3px solid #ccc; border-radius: 5px;}
+.my-content .img-box img{
+        padding: 10px;  
+    width: 100%;
+}
+.my-content  .info1{background-color: none;min-height: 40px;color: #2670ad;border-radius: 8px}
+.my-content  .info1 .info-m{
+    padding-top: 7px;
+   border: 1px solid black;
+    border-radius: 5px;
+
+}
+.my-content  .info1 .info-m select{ background-color: transparent; color: black;
+border: none;}
+.my-content  .info1 .info-m select .select2{}
+.my-content .date-form {
+    position: absolute;
+    display: inline;
+    width: 100%;
+}
+.date-form .form-control {
+    display: inline-block;
+    width: 90%;
+    margin-top: 20px;
+    
+}
+
+
+.date-form form .btn-success{margin-top: 20px;background-color: #414b52;border: 1px solid #414b52}
+/*table*/
+.my-data{overflow: hidden;}
+.my-data table{margin-top: 170px;}
+.my-data table thead{background-color:  #044a95;color: #fff;}
+.my-data table thead th{padding: 20px}
+.my-data table thead th .my-btn{background-color: #ccc;color: #2670ad}
+.my-data table tbody{background-color: #ccc;}
+.my-data table tbody td{padding: 8px}
+/*//table*/
+/*end content*/
+/*start footer*/
+.footer{
+    min-height: 300px;
+    background-color: #044a95;
+    color: #fff
+}
+.footer h3{padding-bottom: 30px;padding-top: 15px}
+.footer p{font-size: 18px}
+.footer p span{padding: 10px}
+/*end footer*/
+
+/*//////// end style for page index.html////////////////*/
+
+
+
+
+
+
+.icon-bar{
+    background-color:black;
+}
+
+.nav > li > a {
+    padding:10px;
+}
+.navbar-nav{
+    padding-top:20px;
+}
+.navbar{
+    margin-bottom:0;
+}
+
+.paddit {
+    padding-top: 20px;
+    margin-top:8px;
+}
+.nav > li > a:hover {
+   color: black;
+    
+}
+
+.navbar-btn-circle {
+    line-height: 20px;
+    margin: 0 5px;
+    width: 41px;
+    height: 42px;
+    border-radius: 50% !important;
+    border: 1px solid #2670ad;
+    /* font-size: 10px; */
+    font-weight: bold;
+}
