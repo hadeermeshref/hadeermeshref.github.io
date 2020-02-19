@@ -10,6 +10,12 @@ body{
 .header .right-part {padding-top: 10px}
 
 .header h3{padding-top: 20px;color: #3c53a8;font-size: 24px;}
+
+@media screen and (max-width: 1024px) {
+  .header h3 {
+    font-size: 13px
+  }
+}
 .header .searchbox{padding-top: 20px}
 
 .header .searchbox form i .fa{
