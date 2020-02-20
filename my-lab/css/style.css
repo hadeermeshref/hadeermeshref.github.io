@@ -1,152 +1,203 @@
-body{
+body {
     font-family: 'Cairo', sans-serif;
     overflow-x: hidden;
-    
-    
 }
-.header{
+
+.header {
     min-height: 100px
 }
-.header .right-part {padding-top: 10px}
 
-.header h3{padding-top: 20px;color: #3c53a8;font-size: 24px;}
+    .header .right-part {
+        padding-top: 10px
+    }
+
+    .header h3 {
+        padding-top: 20px;
+        color: #3c53a8;
+        font-size: 24px;
+    }
 
 @media screen and (max-width: 1024px) {
-  .header h3 {
-    font-size: 13px
-  }
-}
-.header .searchbox{padding-top: 20px}
-
-.header .searchbox form i .fa{
-   
-    font-size: 1.2rem;
-    
+    .header h3 {
+        font-size: 13px
+    }
 }
 
-.header .searchbox form i.fa-search{
-    color: #3c53a8;
-    position: absolute;
-    top:32px;
-    z-index: 4;
-    left: 44%;
+.header .searchbox {
+    padding-top: 20px
 }
-.header .searchbox form input{
-    height: 30px;
-    border: 1px solid #3c53a8;
-    border-radius: 5px;
-    font-size: .75rem;
 
-    
-}
-form input[type="search"]{
+    .header .searchbox form i .fa {
+        font-size: 1.2rem;
+    }
+
+    .header .searchbox form i.fa-search {
+        color: #3c53a8;
+        position: absolute;
+        top: 32px;
+        z-index: 4;
+        left: 44%;
+    }
+
+    .header .searchbox form input {
+        height: 30px;
+        border: 1px solid #3c53a8;
+        border-radius: 5px;
+        font-size: .75rem;
+    }
+
+form input[type="search"] {
     width: 200px;
 }
-/*لاخفاء البلايسهولدر وتغير حجمه ولونه*/
+    /*لاخفاء البلايسهولدر وتغير حجمه ولونه*/
 
-form input[type="search"]:focus{
-    outline: none}
-form input[type="search"]::placeholder{
-    font-size: 12px;
-padding-right: 10px}
+    form input[type="search"]:focus {
+        outline: none
+    }
 
-#my-input:focus::-webkit-input-placeholder{
+    form input[type="search"]::placeholder {
+        font-size: 12px;
+        padding-right: 10px
+    }
+
+#my-input:focus::-webkit-input-placeholder {
     opacity: 0;
-    -webkit-transition:opacity .5s ease-in-out;
-    -moz-transition:opacity .5s ease-in-out;
-    -o-transition:opacity .5s ease-in-out;
-    transition:opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
-#my-input:focus::-moz-input-placeholder{
+#my-input:focus::-moz-input-placeholder {
     opacity: 0;
-    -webkit-transition:opacity .5s ease-in-out;
-    -moz-transition:opacity .5s ease-in-out;
-    -o-transition:opacity .5s ease-in-out;
-    transition:opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
-#my-input:focus:-ms-input-placeholder{
+#my-input:focus:-ms-input-placeholder {
     opacity: 0;
-    -webkit-transition:opacity .5s ease-in-out;
-    -moz-transition:opacity .5s ease-in-out;
-    -o-transition:opacity .5s ease-in-out;
-    transition:opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
-#my-input:focus:-moz-input-placeholder{
+#my-input:focus:-moz-input-placeholder {
     opacity: 0;
-    -webkit-transition:opacity .5s ease-in-out;
-    -moz-transition:opacity .5s ease-in-out;
-    -o-transition:opacity .5s ease-in-out;
-    transition:opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 
-.header .searchbox .a , .header .searchbox .topmenue{
+.header .searchbox .a, .header .searchbox .topmenue {
     display: inline-block
 }
 
-.header .searchbox  .topmenue{
-
+.header .searchbox .topmenue {
     font-size: 15px;
     color: #3c53a8;
     padding-top: 10px
 }
 
-.header .searchbox  .topmenue ul li{
-    
-    margin: 0px 10px;
+    .header .searchbox .topmenue ul li {
+        margin: 0px 10px;
+        padding-bottom: 10px;
+        list-style: none;
+        font-weight: bold;
+        display: inline-block;
+        color: #3c53a8;
+    }
 
-    padding-bottom: 10px;
-    list-style: none ;
-
-    font-weight: bold;
-    display: inline-block;
-    color: #3c53a8;
-   
-}
-.header .searchbox  .topmenue ul li a{
-    color: #3c53a8;text-decoration: none
-}
+        .header .searchbox .topmenue ul li a {
+            color: #3c53a8;
+            text-decoration: none
+        }
 
 /*نافبار*/
-.navbar{min-height: 80px;
-  background-image: linear-gradient(-140deg, #2c7dbc 15%, #7cccc5 70%);
-    border-color: transparent;   
+.navbar {
+    min-height: 80px;
+    max-width:100%;
+    background-image: linear-gradient(-140deg, rgba(44, 125, 188, .5) 15%, rgba(124, 204, 197, .5) 70%);
+    border-color: transparent;
+    position:absolute;
+    left:0;
+    right:0;
+    z-index:8;
+}
+.navbar-nav{
+    max-width:100%;
+}
+.collapse{
+    max-width:100%;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
     padding-left: 30px
 }
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+
+    .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+        color: #fff;
+    }
+
+.dropdown-item {
+    background-image: linear-gradient(-140deg, #7cccc5 30%, #2c7dbc 15%, #7cccc5 30%);
+    border-color: transparent;
     color: #fff;
-    
 }
-.dropdown-item { background-image: linear-gradient(-140deg, #7cccc5 30%, #2c7dbc 15%, #7cccc5 30%);   border-color: transparent;color: #fff}
 
 
 /*نافبار*/
 /*slider*/
 
-.carousel-inner .carousel-item img{height: 600px}
-.carousel-inner .carousel-item  .carousel-caption{padding-bottom: 60px}
-.carousel-indicators{left: 22%;cursor: pointer}
+.carousel-inner .carousel-item img {
+    height: 600px
+}
+
+.carousel-inner .carousel-item .carousel-caption {
+    padding-bottom: 60px
+}
+
+.carousel-indicators {
+    left: 22%;
+    cursor: pointer
+}
 /*//slider*/
 /*footer*/
-.footer{
+.footer {
     min-height: 160px;
     padding-top: 30px;
-  background-image: linear-gradient(-140deg, #2c7dbc 15%, #7cccc5 70%);
+    background-image: linear-gradient(-140deg, #2c7dbc 15%, #7cccc5 70%);
 }
-.footer .fa{font-size: 17px;padding: 5px;font-weight: bold;}
-.footer img{ width: 35px;height: 35px;cursor: pointer}
-.footer ul li{display: inline-block}
+
+    .footer .fa {
+        font-size: 17px;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    .footer img {
+        width: 35px;
+        height: 35px;
+        cursor: pointer
+    }
+
+    .footer ul li {
+        display: inline-block
+    }
 /*footer*/
 
 
 
+    @media only screen and (max-width: 768px) {
 
+        .dropdown-item {
+            white-space: pre-wrap;
+        }
+}
 
 
 
