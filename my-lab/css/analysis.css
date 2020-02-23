@@ -1,0 +1,66 @@
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;}
+
+.breadcrumb{margin-top: 80px;}
+ol .breadcrumb{margin: 80px 0 0;}
+
+.navbar {
+   
+    background-image: linear-gradient(-140deg, rgba(44, 125, 188, .9) 15%, rgba(124, 204, 197, .9) 70%);
+   
+   
+}
+
+/*first table*/
+.price1 .table2{margin-top: 20px;min-height: auto;width: 100%;margin-bottom: 40px}
+.price1 .table2 thead{border:  1px solid #044a95;}
+.price1 .table2 thead tr th{text-align: center;min-height: 30px;width: 100px}
+
+.price1 .table2 > thead > tr > th {  
+    padding: 15px   
+}
+
+.price1 .table2 tbody tr{margin-top: 0}
+.price1 .table2 tbody td{border: 1px solid #044a95; text-align: center ;padding: 15px;width: 100px}
+
+/*//first table*/
+
+/*second table*/
+.table1{margin-top: 20px;min-height: auto}
+.table1 thead{}
+.table1 thead tr th{text-align: right}
+
+.table1 > thead > tr > th {
+    
+    
+}
+
+table tbody tr{margin-top: 0}
+table tbody td{border: 1px solid #044a95; text-align: right;padding-top: 15px;width: 100px;font-weight: bold;font-size: 18px}
+/*second table*/
+
+/*third table*/
+
+/*//third table*/
+
+/*fourth table*/
+
+/*//fourth table*/
+/* table#5*/
+.table5{margin-top: 20px;min-height: auto}
+.table5 thead{}
+.table5 thead tr th{text-align: right;width: 100px}
+
+.table5 > thead > tr > th {
+    
+    
+}
+
+.table5 tbody tr{margin-top: 0}
+.table5 tbody td{border: 1px solid #044a95; text-align: right;padding-top: 15px;width: 100px;font-weight: bold;font-size: 18px}
+/* //table#5*/
+
+/* table#6*/
+/* //table#6*/
+/* table#7*/
+/* //table#7*/

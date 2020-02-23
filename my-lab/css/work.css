@@ -1,8 +1,15 @@
 .navbar-light .navbar-nav .nav-link {
-    color: 3c53a8;}
+    color: #fff;}
 
 .breadcrumb{margin-top: 80px;}
 ol .breadcrumb{margin: 80px 0 0;}
+
+.navbar {
+   
+    background-image: linear-gradient(-140deg, rgba(44, 125, 188, .9) 15%, rgba(124, 204, 197, .9) 70%);
+   
+   
+}
 .work-content ul li{padding: 6px}
 .work-content .image{margin-bottom: 30px}
 .work-content .image img{width: 100%;}
