@@ -1,4 +1,8 @@
-	//smooth scroll to div
+	
+$(function () {
+    
+
+//smooth scroll to div
 	
 	$('.navbar-default .navbar-nav  li  a').click(function () {
 		
@@ -12,3 +16,5 @@
 		
 		
 	});
+    
+    });
