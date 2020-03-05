@@ -170,6 +170,33 @@ form input[type="search"] {
 .carousel-indicators .active {
     background-color: #f5e75b;}
 /*//slider*/
+
+
+/*start sec stats*/
+.statistic{
+    background-color: #f4f7f9;
+   min-height: 80px;
+    background-size: cover;
+       
+}
+.statistic .data{
+    background-color: rgba(2,2,2,0.2);
+   color: #044a95;
+   min-height: 80px;
+    padding-bottom: 20px
+}
+.statistic .stats{
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+    width: 100%;
+    margin-top: 50px
+}
+.statistic .stats img{width: 100%;padding: 5px;cursor: pointer}
+.statistic  h3{padding-top: 20px}
+/*end sec stats*/
+
 /*footer*/
 .footer {
     min-height: 160px;

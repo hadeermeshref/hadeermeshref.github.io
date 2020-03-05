@@ -10,3 +10,18 @@ ol .breadcrumb{margin: 80px 0 0;}
    
    
 }
+/*start sec stats*/
+.statistic{
+    background: url(../imges/1.jpg)no-repeat center center fixed;
+   min-height: 160px;
+    background-size: cover;
+       
+}
+.statistic .data{
+    background-color: rgba(2,2,2,0.1);
+   color: #044a95;
+   min-height: 160px;
+    padding-bottom: 20px
+}
+
+/*end sec stats*/

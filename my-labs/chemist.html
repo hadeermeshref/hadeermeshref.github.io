@@ -205,7 +205,61 @@
         
     </div>   
 <!--        end work content-->
-        
+                  <!--start section statistic-->
+	   <section class="statistic text-center">
+           <div class="data">
+                 <div class="container">
+                     <h3 class="h3">شركاءنا </h3>
+                     <div class="row">
+                         
+                         
+                         
+                            <div class="col-md-2 col-xs-6" >
+                              <div class="stats wow bounceIn"  data-wow-duration=".5s"  data-wow-offset="200" data-wow-delay=".5s">
+                                 <a href="https://www.mewa.gov.sa/ar/Pages/default.aspx"><img src="imges/logosvg.svg" /></a>
+                              </div>
+                         </div>
+                         <div class="col-md-2 col-xs-6">
+                              <div class="stats wow bounceIn"  data-wow-duration=".5s"  data-wow-offset="200" data-wow-delay="1s">
+                                 <a href="https://www.energy.gov.sa/ar/pages/default.aspx"><img src="imges/bbb.png" /></a>
+                              </div>
+                         </div>
+                         
+                         <div class="col-md-2 col-xs-6">
+                              <div class="stats wow bounceIn"  data-wow-duration=".5s"  data-wow-offset="200" data-wow-delay="1.5s">
+                                 <a href="https://www.brgm.eu/"><img src="imges/footer-logo.png" /></a>
+                              </div>
+                         </div>
+                         
+                         
+                         <div class="col-md-2 col-xs-6">
+                              <div class="stats wow bounceIn"  data-wow-duration=".5s"  data-wow-offset="200" data-wow-delay="2s">
+                                 <a href="https://www.saudiaramco.com/ar#"><img src="imges/aramcoLogo.png" /></a>
+                              </div>
+                         </div>
+                       
+                         
+                         <div class="col-md-2 col-xs-6">
+                              <div class="stats wow bounceIn"  data-wow-duration=".5s"  data-wow-offset="200" data-wow-delay="2.5s">
+                                 <a href="https://www.sfda.gov.sa/ar/Pages/default.aspx"><img src="imges/logo_sfda2.png" /></a>
+                              </div>
+                         </div>
+                         <div class="col-md-2 col-xs-6">
+                              <div class="stats wow bounceIn " style="margin-top: 10"  data-wow-duration=".5s"  data-wow-offset="200" data-wow-delay="3s" >
+                                 <a href="https://sgs.org.sa/"><img  src="imges/mesaha.png" /></a>
+                              </div>
+                         </div>
+                         
+                         
+                         
+                         
+                     </div>
+                </div>
+           </div>
+          
+       </section>
+<!--end section statistic-->
+            
         
          <!--        footer-->
     <footer class="footer text-center">
@@ -257,5 +311,33 @@
         new WOW().init();
     </script>
 
+                 <!--    HOVER ON DROPDWEN LIST-->
+    <script type="text/javascript">
+        const $dropdown = $(".dropdown");
+        const $dropdownToggle = $(".dropdown-toggle");
+        const $dropdownMenu = $(".dropdown-menu");
+        const showClass = "show";
+
+        $(window).on("load resize", function () {
+            if (this.matchMedia("(min-width: 768px)").matches) {
+                $dropdown.hover(
+                    function () {
+                        const $this = $(this);
+                        $this.addClass(showClass);
+                        $this.find($dropdownToggle).attr("aria-expanded", "true");
+                        $this.find($dropdownMenu).addClass(showClass);
+                    },
+                    function () {
+                        const $this = $(this);
+                        $this.removeClass(showClass);
+                        $this.find($dropdownToggle).attr("aria-expanded", "false");
+                        $this.find($dropdownMenu).removeClass(showClass);
+                    }
+                );
+            } else {
+                $dropdown.off("mouseenter mouseleave");
+            }
+        });
+    </script>
 </body>
 </html>
