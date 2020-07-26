@@ -1,0 +1,174 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+    overflow-x: hidden;
+    color: #3d2514;
+/*    font-family: 'Oswald', sans-serif;*/
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+body a:focus,
+a:hover {
+    text-decoration: none;
+}
+/*navbar*/
+.header{background: url(../images/Rectangle.png);
+   min-height: 500px;
+    position: relative
+}
+
+.header  .brand img, .header  .brand .phone{margin-top: 10px;}
+.header  .brand .phone img{margin-top: 0px;padding: 3px}
+.header  .brand span {font-size: 15px;font-weight: bold}
+
+
+/*header part2*/
+.header .navbar .nav-item .nav-link {text-transform: uppercase;font-weight: bold}
+.navbar .nav-item .nav-link{font-size: 17px}
+.navbar-light .navbar-nav .active .nav-link{color: #3d2514 }
+/* end header part2*/
+/*header part3*/
+
+.header-content .text p{text-transform: uppercase;padding: 3px;border: 2px dashed #3d2514;font-size: 16px}
+.header-content .text h1{font-size: 150px;font-weight: bold;color: #3d2514; text-shadow: 4px 3px 0px #Fff}
+.header-content .text h4{font-size: 70px;font-weight: bold;color: #3d2514; text-shadow: 3px 2px 0px #Fff}
+.header-content img{max-width: 100% }
+.header-content .price{ width: 110px;height: 110px;border-radius: 50%;background-color: red;color: #fff;position: absolute;
+bottom:30%;right: 59%;top: 57%}
+.header-content .price .elips{ width: 95px;height: 95px;border-radius: 50%;border: 2px dashed #fff;position: absolute;left:6.5%;top:5%}
+.header-content .price p{font-size: 25px;position: absolute;left:18%;top:10%;letter-spacing: 3px}
+.header-content .price p span{font-size: 33px;font-weight: bold;}
+/*header part3*/
+/*// header*/
+/*Start about*/
+.about {min-height: 400px;margin-top: 20px}
+.about img{width: 100%;padding-bottom: 10px}
+.about .right-about{
+    position: relative
+}
+.about .right-about .try{
+    position: absolute;
+    color: #fff;
+    top:10%;
+    padding-left: 10px
+}
+.about .right-about .pop{
+    position: absolute;
+    color: #fff;
+    top:17%;
+    font-size: 25px;
+    padding-left: 10px
+}
+.about .left-about .try1{
+    position: absolute;
+    color: #fff;
+    top:10%;
+    padding-left: 10px
+}
+.about .left-about .pop1{
+    position: absolute;
+    color: #fff;
+    top:17%;
+    font-size: 25px;
+    padding-left: 10px
+}
+.about .left-about .try2{
+    position: absolute;
+    color: #fff;
+    top:60%;
+    padding-left: 10px
+}
+.about .left-about .pop2{
+    position: absolute;
+    color: #fff;
+    top:65%;
+    font-size: 25px;
+    padding-left: 10px
+}
+
+/*end about*/
+/*choose*/
+
+.choose{margin-top: 20px;position: relative}
+.choose h3{padding: 10px;margin-bottom: 20px;
+    background-color: #ffc045}
+.choose h2{font-weight: bold;font-size: 55px;padding-bottom: 5px}
+.choose  .box{margin-bottom: 60px}
+.choose  img{width: 100%}
+.choose  .burg-content{margin-top: 20px}
+.choose  .burg-content h4{font-weight: bold}
+
+/*//choose*/
+/*start slider */
+.pb-5, .py-5 {
+    padding-bottom: 3rem!important;
+    background-color: #fff;
+    box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, .1);
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carousel-item{padding-left: 20px;}
+.carousel-indicators{position: relative;margin-top: 90px}
+.carousel-indicators li{background-color: #dfdfdf}
+.carousel-indicators .active{background-color: #ffc045;}
+/*end slider*/
+/*start reservation*/
+.reservation{
+    min-height: 600px;
+    background: url(../images/Imagebg.png);
+    margin-top: 5px;background-size: cover;}
+.reservation h5{margin-top: 50px;font-size: 30px}
+.reservation h3{font-weight: bold;font-size: 70px}
+.reservation .form{margin-top: 50px}
+.reservation .form .form-row{margin-bottom: 10px;}
+/*end reservation*/
+/*footer*/
+.footer{
+   margin-top: 40px;margin-bottom: 40px;color: #fff;font-size: 15px;
+}
+.footer .footer-content{background: url(../images/footer.png)no-repeat;min-height: 300px}
+.footer .footer-content img, .footer .footer-content p{padding: 10px}
+
+
+.footer .footer-content .details{padding-top: 10px}
+.footer .footer-content .details i{padding: 10px}
+.footer .footer-content .social {padding-top: 5px;padding-bottom: 10px}
+
+/*//footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
