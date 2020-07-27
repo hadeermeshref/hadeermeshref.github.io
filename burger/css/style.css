@@ -2,9 +2,8 @@ body {
     padding: 0;
     margin: 0;
     background: #FFF;
-    overflow-x: hidden;
+    overflow-x: hidden ;
     color: #3d2514;
-/*    font-family: 'Oswald', sans-serif;*/
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -15,8 +14,10 @@ a:hover {
 }
 /*navbar*/
 .header{background: url(../images/Rectangle.png);
+    overflow-x: hidden;
    min-height: 500px;
-    position: relative
+    position: relative;
+    
 }
 
 .header  .brand img, .header  .brand .phone{margin-top: 10px;}
@@ -31,9 +32,9 @@ a:hover {
 /* end header part2*/
 /*header part3*/
 
-.header-content .text p{text-transform: uppercase;padding: 3px;border: 2px dashed #3d2514;font-size: 16px}
-.header-content .text h1{font-size: 150px;font-weight: bold;color: #3d2514; text-shadow: 4px 3px 0px #Fff}
-.header-content .text h4{font-size: 70px;font-weight: bold;color: #3d2514; text-shadow: 3px 2px 0px #Fff}
+.header-content .text p{text-transform: uppercase;padding: 3px;border: 2px dashed #3d2514;font-size: 18px}
+.header-content .text h1{font-size: 120px;font-weight: bold;color: #3d2514; text-shadow: 4px 3px 0px #Fff}
+.header-content .text h4{font-size: 60px;font-weight: bold;color: #3d2514; text-shadow: 3px 2px 0px #Fff}
 .header-content img{max-width: 100% }
 .header-content .price{ width: 110px;height: 110px;border-radius: 50%;background-color: red;color: #fff;position: absolute;
 bottom:30%;right: 59%;top: 57%}
@@ -43,7 +44,7 @@ bottom:30%;right: 59%;top: 57%}
 /*header part3*/
 /*// header*/
 /*Start about*/
-.about {min-height: 400px;margin-top: 20px}
+.about {min-height: 400px;margin-top: 20px;}
 .about img{width: 100%;padding-bottom: 10px}
 .about .right-about{
     position: relative
@@ -91,7 +92,7 @@ bottom:30%;right: 59%;top: 57%}
 /*end about*/
 /*choose*/
 
-.choose{margin-top: 20px;position: relative}
+.choose{margin-top: 20px;position: relative;}
 .choose h3{padding: 10px;margin-bottom: 20px;
     background-color: #ffc045}
 .choose h2{font-weight: bold;font-size: 55px;padding-bottom: 5px}
@@ -109,6 +110,7 @@ bottom:30%;right: 59%;top: 57%}
     border: 1px solid #ccc;
     margin-left: 20px;
     margin-right: 20px;
+    
 }
 
 .carousel-item{padding-left: 20px;}
@@ -128,15 +130,16 @@ bottom:30%;right: 59%;top: 57%}
 /*end reservation*/
 /*footer*/
 .footer{
-   margin-top: 40px;margin-bottom: 40px;color: #fff;font-size: 15px;
+   margin-top: 40px;margin-bottom: 40px;color: #fff;font-size: 15px;overflow-x: hidden
 }
 .footer .footer-content{background: url(../images/footer.png)no-repeat;min-height: 300px}
-.footer .footer-content img, .footer .footer-content p{padding: 10px}
+.footer .footer-content .foo-logo img, .footer .footer-content p{padding: 10px}
+.footer .footer-content .foo-logo img{width: 100%}
 
 
 .footer .footer-content .details{padding-top: 10px}
 .footer .footer-content .details i{padding: 10px}
-.footer .footer-content .social {padding-top: 5px;padding-bottom: 10px}
+.footer .footer-content .social img{padding: 5px}
 
 /*//footer*/
 
