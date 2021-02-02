@@ -1,0 +1,69 @@
+
+<html>
+<head>
+    
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>PRODUCT CRUD</title>
+<link rel="stylesheet" href="css/all.min.css">
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+    
+</head>
+<body>
+   <!-- start crud  -->
+    
+ <div class="container py-5 text-white w-75 m-auto">
+     <h1 class="my-4 text-white text-center text-capitalize ">products list system</h1>
+     <div class=" form-group">
+     <label for="prodNameInp">productName :</label>
+     <input class="form-control" type="text" id="prodNameInp" required />
+     <div class="valid-feedback">
+        Looks good!
+      </div>
+     </div>
+
+     <div class=" form-group">
+        <label for="prodPriceInp">productPrice :</label>
+        <input class="form-control" type="number"  id="prodPriceInp" required>
+        </div>
+
+        <div class=" form-group">
+            <label for="prodCategInp">productCategory :</label>
+            <input class="form-control" type="text" id="prodCategInp">
+            </div>
+
+            <div class=" form-group">
+                <label for="prodDescInp">productDescription :</label>
+                <textarea class="form-control" type="text" id="prodDescInp"></textarea>
+                </div>
+
+                <button id="addBtn" onclick="addProduct()" class=" btn btn-secondary">add product</button>
+ </div>
+
+ <div class=" container py-4 ">
+    <input onkeyup="search(this.value)" class="w-50  m-auto form-control my-3" placeholder="search by name">
+    <table class="table my-5 text-white">
+        <thead>
+            <th>index</th>
+            <th>productName</th>
+            <th>productPrice</th>
+            <th>productCategory</th>
+            <th>productDescription</th>
+            <th>update</th>
+            <th>delete</th>
+        </thead>
+        <tbody id="tableBody"> 
+
+        </tbody>
+    </table>   
+    
+ </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+     <script src="js/main.js"></script>
+</body>
+</html>
