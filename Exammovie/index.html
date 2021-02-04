@@ -1,0 +1,148 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+    <!-- the navigation moving side bar -->
+    <section id="sideBar" class="position-fixed d-flex   vh-100 ">
+        <div class="movingBar  d-flex flex-column justify-content-between">
+            <div class="links">
+                <ul class="list-unstyled overflow-hidden  ">
+                    <li><a href="#">Now playing</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Top Rated</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Upcoming</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer">
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fas fa-globe"></i>
+                </div>
+                <p class="pl-3 pb-5">Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+        </div>
+        <div class="stableBar  d-flex justify-content-between flex-column align-items-center">
+            <div class="logo pt-5">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="controlIcon">
+                <i id="navIcon" class="fa fa-align-justify "></i>
+            </div>
+            <div class="shareIcons d-flex flex-column pb-5 ">
+                <i class="fas fa-globe"></i>
+                <i class="fas fa-share-alt pt-3 pb-2"></i>
+            </div>
+
+        </div>
+
+    </section>
+    <!--Main section the api part-->
+
+    <section id="apiData">
+        <div class="container">
+            <div class="row pt-5 pl-4">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="searchByChar" placeholder="Get Movies By Word...">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="search" placeholder="search...">
+                    </div>
+                </div>
+            </div>
+            <div id="dataCont" class="row ml-3">
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Form-->
+    <section id="contact" class="py-5 position-relative pl-5">
+        <div class="container  ">
+            <h2 class="text-white">ContactUs...</h2>
+            <form>
+                <div class="row py-5">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input id="name" class="form-control" placeholder="Enter Your Name">
+                            <div id="name-alert" class="alert-danger p-3 rounded d-none">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input id="email" class="form-control" placeholder="Enter Your Email">
+                            <div id="email-alert" class="alert-danger p-3 rounded d-none ">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input id="phone" class="form-control" placeholder="Enter Your Phone">
+                            <div id="phone-alert" class="alert-danger p-3 rounded d-none ">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input id="age" class="form-control" placeholder="Enter Your Age">
+                            <div id="age-alert" class="alert-danger p-3 rounded d-none">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input id="password" type="password" class="form-control" placeholder="Enter Your Password">
+                            <div id="password-alert" class="alert-danger p-3 rounded d-none">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input id="passwordConfirm" type="password" class="form-control"
+                                placeholder="Confirm Password">
+                            <div id="confirm-alert" class="alert-danger p-3 rounded d-none">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button id="formSubmit" type="submit" class="btn btn-outline-danger ">Submit</button>
+            </form>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

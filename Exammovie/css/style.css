@@ -1,0 +1,144 @@
+body{
+    background-color: #000000f2;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sideBar{
+    background-color: black;
+    top: 0;
+    left: -250px;
+    z-index: 44444444;
+}
+#sideBar .movingBar{
+    width: 250px;
+}
+
+#sideBar .movingBar .links ul li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ;
+    position: relative;
+   
+}
+
+#sideBar .movingBar .links ul li{
+    padding: 15px 30px;
+}
+#sideBar .movingBar .links ul li a:hover{
+    color:rgb(250, 68, 68);
+    
+}
+#sideBar .movingBar .footer .icons{
+    padding: 25px;
+}
+#sideBar .movingBar .footer .icons i{
+    padding: 0 10px;
+    color:white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#sideBar .movingBar .footer .icons i:hover{
+    
+    color:rgb(250, 68, 68);
+}    
+#sideBar .movingBar .footer p{
+    color: rgb(173, 172, 172);
+    font-size: 15px;
+}
+#sideBar .stableBar {
+    background-color: white;
+    width: 60px;
+}
+#sideBar .stableBar .logo img{
+    width: 30px;
+}
+#sideBar .stableBar .controlIcon i{
+    font-size: 25px;
+    cursor: pointer;
+   
+}
+#sideBar .stableBar .shareIcons{
+    cursor: pointer;
+}
+
+
+/*<!--Main section the api part--> */
+
+
+#apiData .container .row .item .overlayLayer{
+    background-color:rgba(255,255,255,.7) ;
+    top: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    transition: all 1s;
+    opacity: 0;
+    
+}
+#apiData .container .row .item{
+    overflow: hidden;
+}
+#apiData .container .row .item:hover .overlayLayer {
+    transform: translateY(0);
+    opacity: 1;
+}
+ #desc {
+     max-height: 400px;
+     max-width: 100%;
+     line-height: 20px;
+ }
+
+ #apiData .container .row input{
+    background-color: transparent;
+    border:none;
+    border-bottom: solid 1px white;
+    color: white;
+    
+}
+#apiData .container .row input::placeholder{
+    text-align: center;
+    font-size: 18px;
+}
+@media only screen and (max-width :572px){
+    #apiData .container .row .item {
+        margin-left: 35px;
+    }
+     #contact .container .row input{
+        width: 85%;
+       
+    } 
+    #contact .container {
+        padding-left: 48px;
+    }
+    #contact form .alert-danger{
+        width:85% ;
+        
+    }
+    #apiData .container .row input{
+        width: 90%;
+        margin: auto;
+    }
+    #apiData .container .row .form-group{
+        padding-left: 40px;
+    }
+}
+
+
+
+
+
+/*Contact section*/
+#contact .container .row input{
+    background-color: transparent;
+    border:none;
+    border-bottom: solid 1px white;
+    color: white;
+    
+}
+#contact .container .row input::placeholder{
+    text-align: center;
+    font-size: 18px;
+}
+ 
