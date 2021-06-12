@@ -2,7 +2,7 @@ body{
     font-family: 'Cairo', sans-serif;
     overflow-x: hidden;
     
-    height: 8000px;
+    height: 20000px;
 }
 p,h1,h2,h3,h4,h5,span{
     font-weight: bold;
@@ -11,14 +11,16 @@ p,h1,h2,h3,h4,h5,span{
 .order{
     background-color: #b9b0f1;
     min-height: 230px;
+	overflow-x: hidden;
 
 }
 
 .order p{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
 }
 #countdown{
+	overflow: hidden;
 	width: 205px;
 	height: 122px;
 	text-align: center;
@@ -34,7 +36,7 @@ p,h1,h2,h3,h4,h5,span{
     margin-top: 10px;
 	padding: 24px 0;
 	position: absolute;
-  top: 0; bottom: 0; left: -230px; right: 0;
+  top: 0; bottom: 0; left: -130px; right: 0;
 }
 
 
@@ -46,7 +48,7 @@ p,h1,h2,h3,h4,h5,span{
 #countdown #tiles > span{
 	width: 62px;
 	max-width: 62px;
-	font: bold 48px 'Droid Sans', Arial, sans-serif;
+	font: bold 40px 'Droid Sans', Arial, sans-serif;
 	text-align: center;
 	color: #111;
 	background-color: #ddd;
@@ -58,14 +60,14 @@ p,h1,h2,h3,h4,h5,span{
 	border-radius: 3px;
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
 	margin: 0 7px;
-	padding: 18px 0;
+	padding: 25px 0;
 	display: inline-block;
 	position: relative;
 }
 
 #countdown #tiles > span:before{
 	content:"";
-	width: 50%;
+	width: 40%;
 	height: 13px;
 	background: #111;
 	display: block;
@@ -77,7 +79,7 @@ p,h1,h2,h3,h4,h5,span{
 
 #countdown #tiles > span:after{
 	content:"";
-	width: 50%;
+	width: 40%;
 	height: 1px;
 	background: #eee;
 	border-top: 1px solid #333;
@@ -109,26 +111,56 @@ p,h1,h2,h3,h4,h5,span{
 /* second sec */
 .des{
     background-color: #000;
+	overflow-x: hidden;
 }
 .des p{
     font-weight: bold;
     font-size: 34px;
 }
 /* sec section */
+/* start defination */
+.define-prod .prod-name{
+	background-color: #ec2465;
+
+}
+
+.define-prod .prod-name h3 span{
+	
+	color: #fff;
+}
+.define-prod .prod-name h3 .part1{
+	
+	font-size: 90px;
+}
+.define-prod .prod-name h3 .part2{
+	
+	font-size: 70px;
+}
+.define-prod .prod-namedetail h3{
+	color: #764794;
+	font-size: 70px;
+}
+/*  end defination */
+
+
 /* start certificate */
 .sponsor{
-   
+	overflow: hidden;
 }
 .sponsor p{
    font-size: 30px; 
    
 }
+/* .sponsor .sponserlogo{
+	height: 100px;
+} */
 .sponsor .sponserlogo img{
     width: 100%;
 }
 /* end certificate */
 /* third section */
 .product-info{
+	overflow-x: hidden;
     position: relative;
     z-index: 9999999999999;
 }
@@ -162,8 +194,15 @@ p,h1,h2,h3,h4,h5,span{
 }
 
 /* third sec */
-
+/* sec four */
+.images{
+	overflow-x: hidden;
+}
+/* sec four */
 /* section five */
+.parts{
+	overflow-x: hidden;
+}
 .parts h2{
     font-weight: bold;
     font-size: 50px;
@@ -174,6 +213,55 @@ p,h1,h2,h3,h4,h5,span{
     font-size: 40px;
 }
 /* section five */
+/* /sec six */
+.whitning-part{
+	overflow-x: hidden;
+}
+/* sec six */
+/* /sec seven */
+.use-product{
+	overflow-x: hidden;
+	background-color: #ec3a74;
+	color: #fff;
+	
+}
+.use-product h2{
+	font-size: 50px;
+}
+/* sec seven */
+
+/* sec nine */
+.prod-gradients{
+	overflow-x: hidden;
+
+}
+.prod-gradients .prod-details
+{
+	background-color: #9791c1;
+}
+.prod-gradients .prod-details p
+{
+font-size: 40px;
+}
+/* sec nine */
+/* sec certif */
+.information h2{
+font-size: 45px;
+}
+.information p{
+	font-size: 35px;
+	}
+	.information .desc{
+		background-color: #9791c1;
+	}
+	.information .desc p{
+		color: #fff;
+		font-size: 40px;
+	}
+	
+
+/* sec certif */
+
 
 
 

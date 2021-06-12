@@ -4,7 +4,8 @@
    .order p{
        position: absolute;
        right: 0;
-       font-size: 25px;
+       top: 0;
+       font-size: 11px;
 
    }
 }
