@@ -1,7 +1,7 @@
 body{
     font-family: 'Cairo', sans-serif;
     overflow-x: hidden;
-    
+    background-color: #edb6d1;
     height: 20000px;
 }
 p,h1,h2,h3,h4,h5,span{
@@ -149,6 +149,7 @@ p,h1,h2,h3,h4,h5,span{
 }
 .sponsor p{
    font-size: 30px; 
+   color:#f71db9
    
 }
 /* .sponsor .sponserlogo{
@@ -191,6 +192,7 @@ p,h1,h2,h3,h4,h5,span{
 .my-desc{
     font-size: 40px;
     margin-top: -20px;
+	color: #5e51a9;
 }
 
 /* third sec */
@@ -211,6 +213,7 @@ p,h1,h2,h3,h4,h5,span{
 .parts p{
     font-weight: bold;
     font-size: 40px;
+	color: #5e51a9;
 }
 /* section five */
 /* /sec six */
@@ -247,9 +250,11 @@ font-size: 40px;
 /* sec certif */
 .information h2{
 font-size: 45px;
+color:#f71db9
 }
 .information p{
 	font-size: 35px;
+	color:#fff
 	}
 	.information .desc{
 		background-color: #9791c1;
