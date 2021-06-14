@@ -1,0 +1,22 @@
+/*phone screen*/
+@media screen and (max-width:568px)
+{
+   
+}
+
+/*medium tablet*/
+@media screen and (min-width:569px) and (max-width:769px)
+{
+  
+}
+
+/*larg*/
+@media screen and (min-width:769px) and (max-width:992px)
+{
+
+}
+/*extra larg*/
+@media screen and (min-width:993px)
+{
+    
+}
