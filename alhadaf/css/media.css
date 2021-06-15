@@ -1,7 +1,10 @@
 /*phone screen*/
 @media screen and (max-width:568px)
 {
-   
+    .navbar .navbar-brand .logo-image{
+        width: 180px;
+        
+    }
 }
 
 /*medium tablet*/
