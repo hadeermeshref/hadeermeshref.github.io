@@ -19,6 +19,12 @@ h2,h3,h4{
     background-color: #cd866c;
 }
 /* end nav */
+/* slider */
+.carousel-inner > .carousel-item >img
+{
+  height: 460px;
+}
+/* slider */
 /*work*/
 .eng-work{
     overflow-x: hidden;
@@ -30,22 +36,36 @@ h2,h3,h4{
     
 }
 .eng-work .do{
-font-size: 30px;
+font-size: 20px;
 }
 .eng-work .eng-box{
     border: 2px solid #ccc;
     border-radius: 5px;
-    height: 95%;
+    height: 100%;
 }
 .eng-work .eng-box h3{
     font-weight: bold;
 }
+.eng-work .eng-box img{
+  height: 150px;
+  width: 100%;
+}
 /*//work*/
 /* gallery */
 .gallery{
-    background-color: #e8c4b7;
+    /* background-color: #e8c4b7; */
+}
+.gallery img{
+  width: 100%;
+  height: 100%;
 }
 /* gallery */
+/* place */
+.place p{
+  font-size: 30px;
+}
+/* //place */
+
 /* order */
 .order span {font-size: 50px;}
 /* order */
@@ -58,8 +78,16 @@ font-size: 30px;
     color: rgb(150, 80, 80);
     font-size: 20px;
 }
+.des img{
+  width: 100%;
+  height: 100%;
+}
 /* des */
 /* doctor */
+.doctor img{
+  width: 100%;
+  height: 80%;
+}
 .doctor .questions{
     background-color: #e8c4b7;
 }
