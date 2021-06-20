@@ -22,7 +22,7 @@ body{
     padding: 0;
 }
 .navbar .navbar-brand .logo-image{
-    width: 380px;
+    width: 430px;
     
 }
 .navbar-light .navbar-nav .nav-link:hover, .btn-secondary:hover{
@@ -92,7 +92,7 @@ body{
 
 }
 .eng-work h4{
-    color: #ff5e15;
+    color: #d20607 ;
 }
 .eng-work .do{
 font-size: 30px;
@@ -101,6 +101,10 @@ font-size: 30px;
     border: 2px solid #ccc;
     border-radius: 5px;
     height: 95%;
+}
+.eng-work .eng-box img{
+    width: 80px;
+    height: 80px;
 }
 .eng-work .eng-box h3{
     font-weight: bold;
@@ -112,7 +116,7 @@ font-size: 30px;
 
 }
 .services  h4{
-    color: #ff5e15;
+    color: #d20607 ;
     font-weight: bold;
 }
 .services  .do{
@@ -135,11 +139,11 @@ font-size: 30px;
     background-color: #09162a;
 }
 .choose .choose-text .text{
-    color: #ff5e15;
+    color: #d20607 ;
 }
 /* end choose */
 .about .about-text h2{
-    color: #ff5e15;
+    color: #d20607 ;
 }
 .about .about-text p{
     font-size: 22px;
@@ -151,7 +155,7 @@ font-size: 30px;
     background-color: #09162a;
 }
 .mission .choose-text .text{
-    color: #ff5e15;
+    color: #d20607 ;
 }
 .mission .choose-text h4{
     font-weight: bold;
@@ -169,15 +173,19 @@ font-size: 30px;
    
     color: #fff;
 }
-.footer .part1 a:hover{
+.footer .part1 li a{
+    color: #fff;
+    font-weight: bold;
+}
+.footer .part1 li a:hover{
  text-decoration: none;
- color: #000;
+ color: red;
 }
 .footer .part2 {
     height: 380px;
 }
 .footer .part2 .img-fluid{
-    height: 270px; 
+    height: 300px; 
     width: 100%;
 }
 
@@ -208,7 +216,7 @@ font-size: 30px;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #ff5e15;
+    background-color: #d20607 ;
     -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
             animation: sk-foldCubeAngle 2.4s infinite linear both;
     -webkit-transform-origin: 100% 100%;
