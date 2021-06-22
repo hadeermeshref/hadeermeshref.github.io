@@ -5,6 +5,7 @@
         width: 180px;
         
     }
+    .carousel-inner > .carousel-item > img{width: 100%;height: 70%;}
 }
 
 /*medium tablet*/
