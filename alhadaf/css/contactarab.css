@@ -1,15 +1,7 @@
-.contact {
-    overflow-x: hidden;
+body{
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
 }
-.contact p{
-    font-weight: bold;
-    font-size: 20px;
-}
-.contact .icon ,.contact p{
-    display: inline;
-}
-
-
 .contact .map .map-responsive{
 
     overflow:hidden;
