@@ -1,0 +1,40 @@
+/*phone screen*/
+@media screen and (max-width:568px)
+{
+    .navbar .navbar-brand .logo-image{
+        width: 180px;
+        
+    }
+    .carousel-inner > .carousel-item > img{width: 100%;height: 70%;}
+  
+    .navbar .logo-name{
+        display:none;
+        }
+        .navbar .icons a i{
+            font-size: 30px;
+        }
+        .navbar  .social{
+            display: none;
+        }
+
+        
+}
+
+/*medium tablet*/
+@media screen and (min-width:569px) and (max-width:769px)
+{
+    .navbar .logo-name{
+        display:none;
+        }
+}
+
+/*larg*/
+@media screen and (min-width:769px) and (max-width:992px)
+{
+
+}
+/*extra larg*/
+@media screen and (min-width:993px)
+{
+    
+}
