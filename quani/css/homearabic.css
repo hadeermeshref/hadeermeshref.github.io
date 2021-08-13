@@ -1,0 +1,15 @@
+body{
+    direction: rtl;
+    font-family: 'Almarai', sans-serif;
+    overflow: hidden;
+    text-align: right;
+}
+.carousel-inner .carousel-item .carousel-caption h5 {font-family: 'Almarai', sans-serif;font-size: 40px;}
+
+.footer ul li a{
+color: #fff;
+}
+.footer ul li a:hover{
+    text-decoration: none;
+    color: #ca2c1f;
+    }

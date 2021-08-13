@@ -1,5 +1,8 @@
-.contact {
+body{
+    direction: rtl;
+    font-family: 'Almarai', sans-serif;
     overflow-x: hidden;
+    text-align: right;
 }
 .contact i,.contact h2{
     color: #ca2c1f;
@@ -54,3 +57,11 @@
         right: 5px;
         bottom: 10px;
     }
+
+    .footer ul li a{
+        color: #fff;
+        }
+        .footer ul li a:hover{
+            text-decoration: none;
+            color: #ca2c1f;
+            }

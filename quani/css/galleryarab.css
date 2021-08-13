@@ -1,7 +1,8 @@
-.gallery h2{
-    font-size: 50px;
-    font-weight: bold;
-    
+body{
+    direction: rtl;
+    font-family: 'Almarai', sans-serif;
+    overflow-x: hidden;
+    text-align: right;
 }
 .gallery  .image-box img{
     width: 100%;
@@ -22,3 +23,11 @@
         right: 5px;
         bottom: 10px;
     }
+
+    .footer ul li a{
+        color: #fff;
+        }
+        .footer ul li a:hover{
+            text-decoration: none;
+            color: #ca2c1f;
+            }

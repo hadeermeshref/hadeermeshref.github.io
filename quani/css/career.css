@@ -1,16 +1,5 @@
-.about .about-text h2{
+.gallery h2{
     font-weight: bold;
-    font-size: 30px;
-    color: #f16b24;
-}
-.about .about-text{
-    font-weight: bold;
-}
-
-
-.mission span{
-    font-weight: bold;
-   
 }
 #call{
     position: fixed;
