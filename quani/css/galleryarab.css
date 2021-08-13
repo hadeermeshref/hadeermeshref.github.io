@@ -10,8 +10,9 @@ body{
 }
 #call{
     position: fixed;
-    right: 5px;
+    left: 5px;
     bottom: 60px;
+    z-index: 999999;
     
     }
     #call a{
@@ -20,8 +21,9 @@ body{
     #whats a{color: green;}
     #whats{
         position: fixed;
-        right: 5px;
+        left: 5px;
         bottom: 10px;
+        z-index: 999999;
     }
 
     .footer ul li a{
