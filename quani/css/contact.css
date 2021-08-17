@@ -1,6 +1,11 @@
 .contact {
     overflow-x: hidden;
 }
+.contact h2{
+    font-weight: 900;
+    font-size: 50px;
+    color: #ca2c1f;
+}
 .contact i,.contact h2{
     color: #ca2c1f;
 }

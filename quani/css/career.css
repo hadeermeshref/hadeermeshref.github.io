@@ -1,5 +1,8 @@
 .gallery h2{
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 40px;
+    color: #ca2c1f;
+
 }
 #call{
     position: fixed;

@@ -4,7 +4,20 @@ body{
     overflow: hidden;
     text-align: right;
 }
-.carousel-inner .carousel-item .carousel-caption h5 {font-family: 'Almarai', sans-serif;font-size: 40px;}
+.carousel-inner .carousel-item .carousel-caption{
+ 
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    
+    z-index: 10;
+   
+    color: #fff;
+    
+}
+
+.carousel-inner .carousel-item .carousel-caption h3 {font-family: 'Almarai', sans-serif;font-size: 42px;font-weight: bold;}
+.carousel-inner .carousel-item .carousel-caption p {font-family: 'Almarai', sans-serif;font-size: 22px;}
 
 .footer ul li a{
 color: #fff;
