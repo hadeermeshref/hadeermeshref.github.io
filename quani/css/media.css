@@ -5,36 +5,78 @@
         width: 180px;
         
     }
-    .carousel-inner > .carousel-item > img{width: 100%;height: 70%;}
+
   
     .navbar .logo-name{
         display:none;
         }
         .navbar .icons a i{
-            font-size: 30px;
+            font-size: 20px;
+        }
+        .navbar .data{
+            font-size: 15px;
         }
         .navbar  .social{
-            display: none;
+            text-align: center;
         }
-
-
-
-        /* fixed icons */
-#btnUp
+        .navbar  .social span{
+            /* display: none; */
+            font-size: 17px;
+        }
+.logoo{
+    padding-top: 40px;
+}
+.navbar span {
+    font-size: 13px;
+}
+.header
 {
-  
-  
-    right: 0px;
-   
+    height: 300px;
+}
+        /* fixed icons  english pages*/
+        
+        #call{
+            right: -7px;
+            bottom: 55px;
+            font-size: 13px;
+            }
+           
+            #whats{  
+                right: -7px; 
+                font-size: 13px;
+            }
+/* fixed icons arabic pages  */
+ /* fixed icons */
+ #call-arab{
+    position: fixed;
+    left: 1px;
+    bottom: 55px;
+    z-index: 99999999;
+    font-size: 13px;
     
+    }
+    #call-arab a{
+        color: #ca2c1f;
+    }
+    #whats-arab a{color: green;}
+    #whats-arab{
+        position: fixed;
+        left: 1px;
+        bottom: 15px;
+        z-index: 99999999;
+        font-size: 13px;
+    }
+
+.eng-work .ser-box{
+    
+    min-height: 250px;
 }
 
-#btnCall{
-  
-   
-    right: 0px;
-   
-    
+
+/* about page */
+.about .about-logo{
+    padding: 0;
+    margin: 0;
 }
 
         

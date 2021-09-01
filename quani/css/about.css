@@ -12,7 +12,25 @@
     font-weight: bold;
    
 }
-#call{
+ /* fixed icons */
+ .call-arab{
+    position: fixed;
+    left: 2px;
+    bottom: 65px;
+    z-index: 99999999;
+    
+    }
+    #call a{
+        color: #ca2c1f;
+    }
+    #whats a{color: green;}
+    .whats-arab{
+        position: fixed;
+        left: 2px;
+        bottom: 15px;
+        z-index: 99999999;
+    }
+/* #call{
     position: fixed;
     right: 5px;
     bottom: 60px;
@@ -26,4 +44,4 @@
         position: fixed;
         right: 5px;
         bottom: 10px;
-    }
+    } */

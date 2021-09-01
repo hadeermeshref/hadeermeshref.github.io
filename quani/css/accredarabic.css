@@ -4,21 +4,7 @@ body{
     overflow-x: hidden;
     text-align: right;
 }
-#call{
-    position: fixed;
-    left: 5px;
-    bottom: 60px;
-    
-    }
-    #call a{
-        color: #ca2c1f;
-    }
-    #whats a{color: green;}
-    #whats{
-        position: fixed;
-        left: 5px;
-        bottom: 10px;
-    }
+
 
     .footer ul li a{
         color: #fff;

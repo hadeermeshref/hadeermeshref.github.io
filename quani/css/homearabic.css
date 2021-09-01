@@ -26,4 +26,23 @@ color: #fff;
     text-decoration: none;
     color: #ca2c1f;
     }
-  
+/* fixed icons */
+#call-arab{
+    position: fixed;
+    left: 1px;
+    bottom: 65px;
+    z-index: 99999999;
+    
+    
+    }
+    #call-arab a{
+        color: #ca2c1f;
+    }
+    #whats-arab a{color: green;}
+    #whats-arab{
+        position: fixed;
+        left: 1px;
+        bottom: 15px;
+        z-index: 99999999;
+        
+    }
