@@ -1,0 +1,60 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    direction: rtl;
+}
+
+.dolma-content .logo img{
+    width:200px;
+     height:200px;
+     border-radius: 50%;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     
+}
+.insta{
+    background-color: #a14f9f;
+    color: #fff;
+    font-weight: bold;
+    
+    
+}
+.insta i{
+    top: 275px;
+}
+.snap{
+background-color: rgb(255, 252, 1);
+font-weight: bold;
+
+}
+.snap img{
+    top: 326px;
+}
+.whats{
+background-color: #1cc43a;
+color: #fff;
+font-weight: bold;
+
+}
+.whats i{
+    top: 370px;
+}
+.insta i, .whats i, .snap img{
+    position: absolute;
+    left: 130px;
+    
+}
+
+.dolma-content .dolma-gallery .img-box img{
+    
+    min-height: 300px; 
+
+}
+
+
+
+
+
+
+
+
