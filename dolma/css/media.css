@@ -25,11 +25,12 @@
 @media screen  and (max-width:326px)
 {
     .insta i{
-        top: 233px;
+        top: 282px;
         left: 70px;
     }
     .snap img{
-        top: 286px;
+        top: 236px;
+       
         left: 70px;
     }
     .whats i{
@@ -40,14 +41,16 @@
 /* phone */
 @media screen and (min-width:327px) and (max-width:425px)
 {
-    .insta i{
-        top: 233px;
-        left: 70px;
-    }
     .snap img{
-        top: 286px;
+        top: 235px;
         left: 70px;
     }
+    .insta i{
+        top: 282px;
+      
+        left: 70px;
+    }
+   
     .whats i{
         top: 333px;
         left: 70px;

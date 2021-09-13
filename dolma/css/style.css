@@ -3,6 +3,8 @@ html{
 }
 body{
     direction: rtl;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Almarai', sans-serif;
 }
 
 .dolma-content .logo img{
@@ -20,7 +22,7 @@ body{
     
 }
 .insta i{
-    top: 275px;
+    top: 326px;
 }
 .snap{
 background-color: rgb(255, 252, 1);
@@ -28,7 +30,8 @@ font-weight: bold;
 
 }
 .snap img{
-    top: 326px;
+    top: 277px;
+    
 }
 .whats{
 background-color: #1cc43a;
