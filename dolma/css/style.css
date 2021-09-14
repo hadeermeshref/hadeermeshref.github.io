@@ -8,8 +8,8 @@ body{
 }
 
 .dolma-content .logo img{
-    width:200px;
-     height:200px;
+    width:260px;
+     height:260px;
      border-radius: 50%;
      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
      
@@ -22,7 +22,7 @@ body{
     
 }
 .insta i{
-    top: 326px;
+    top: 386px;
 }
 .snap{
 background-color: rgb(255, 252, 1);
@@ -30,7 +30,7 @@ font-weight: bold;
 
 }
 .snap img{
-    top: 277px;
+    top: 337px;
     
 }
 .whats{
@@ -40,7 +40,7 @@ font-weight: bold;
 
 }
 .whats i{
-    top: 370px;
+    top: 430px;
 }
 .insta i, .whats i, .snap img{
     position: absolute;
