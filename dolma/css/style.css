@@ -47,10 +47,14 @@ font-weight: bold;
     left: 130px;
     
 }
-
+.dolma-content .dolma-gallery .img-box{
+    /* max-height: 500px; */
+   
+}
 .dolma-content .dolma-gallery .img-box img{
     
-    min-height: 300px; 
+    max-height: 300px; 
+    width: 100%;
 
 }
 
